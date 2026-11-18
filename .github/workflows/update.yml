@@ -37,14 +37,12 @@ jobs:
         env:
           TARGET_URL: https://check0ver.net/en
           PYTHONUNBUFFERED: "1"
-        run: |
-          python -u scrape.py
+        run: python -u scrape.py
 
       - name: Validate JSON
         run: |
           python -m json.tool ashte.json > /dev/null
-          echo "JSON is valid"
-          python -c "import json; d=json.load(open('ashte.json')); print('Games:', d['count']); print('Downloads:', d['download_count'])"
+          python -c "import json; d=json.load(open('ashte.json')); assert d['count'] > 0, 'No games found'; print('Games:', d['count']); print('Downloads:', d['download_count'])"
 
       - name: Commit Changes
         run: |
@@ -52,7 +50,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add ashte.json
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git commit -m "Update Ashte JSON"
             git push
