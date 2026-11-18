@@ -3,206 +3,168 @@ import json
 import os
 import re
 import sys
-from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
+import html
+from urllib.parse import urlencode
 from playwright.sync_api import sync_playwright
 
 BASE = "https://check0ver.net"
 URL = os.getenv("TARGET_URL", BASE + "/en")
 OUT = "ashte.json"
 
-GAME_ID = "9c60f563-1983-42f0-8882-a26207bd4aaf"
+GAME_CATEGORIES = {
+    "games",
+    "paid games",
+    "arcade games",
+    "العاب نيتندو سويتش",
+}
 
-GAME_WORDS = re.compile(
-    r"games?|paid games|arcade games|nintendo|switch|العاب|ألعاب|ياري",
-    re.I
-)
-
-DOWNLOAD_WORDS = re.compile(
-    r"download|تحميل|تنزيل|install",
-    re.I
-)
+def normalize(value):
+    return re.sub(r"\s+", " ", str(value or "")).strip().lower()
 
 
-def absolute(url):
-    return urljoin(BASE, url) if url else ""
+def get_page_data(page):
+    """Read Inertia data embedded in the #app element."""
+    try:
+        raw = page.locator("#app").get_attribute("data-page")
+        if raw:
+            return json.loads(html.unescape(raw))
+    except Exception:
+        pass
+
+    # Some Inertia responses may be JSON directly.
+    try:
+        body = page.locator("body").inner_text()
+        return json.loads(body)
+    except Exception:
+        return {}
 
 
-def clean(url):
-    return url.split("#")[0].strip()
+def find_categories(data):
+    props = data.get("props", {})
+    categories = props.get("categories", [])
+
+    if not isinstance(categories, list):
+        categories = []
+
+    found = []
+
+    for category in categories:
+        name = category.get("name", "")
+        if normalize(name) in GAME_CATEGORIES:
+            found.append(category)
+
+    # Also check categoriesWithApps.
+    for category in props.get("categoriesWithApps", []):
+        name = category.get("name", "")
+        if normalize(name) in GAME_CATEGORIES:
+            if not any(x.get("uuid") == category.get("uuid") for x in found):
+                found.append(category)
+
+    return found
 
 
-def extract_categories(page):
-    result = {}
-
-    links = page.locator("a[href]").evaluate_all("""
-    els => els.map(a => ({
-      text: (a.innerText || a.title || '').trim(),
-      href: a.href
-    }))
-    """)
-
-    for item in links:
-        name = item["text"]
-        href = clean(item["href"])
-
-        if GAME_WORDS.search(name) and "/iapps" in href:
-            result[href] = name
-
-    result[
-        BASE + "/en/iapps?filter[inCategories][0]=" + GAME_ID
-    ] = "Games"
-
-    return result
-
-
-def extract_cards(page, category):
+def find_apps(value, output=None):
     """
-    Find cards by their Download button and surrounding content.
-    Does not assume that game detail URLs contain /iapps/.
+    Recursively find app objects in Inertia props.
+    App objects have uuid, name and image.
     """
-    return page.evaluate("""
-    () => {
-      const output = [];
-      const seen = new Set();
+    if output is None:
+        output = {}
 
-      const downloadElements = [...document.querySelectorAll(
-        'a[href], button, [role="button"]'
-      )].filter(el => {
-        const text = (el.innerText || el.textContent || '').trim();
-        return /download|تحميل|تنزيل/i.test(text);
-      });
+    if isinstance(value, dict):
+        if (
+            value.get("uuid")
+            and value.get("name")
+            and (
+                value.get("image")
+                or value.get("downloadURL") is not None
+                or value.get("version")
+            )
+        ):
+            output[value["uuid"]] = value
 
-      for (const button of downloadElements) {
-        let card = button;
-        let best = null;
+        for child in value.values():
+            find_apps(child, output)
 
-        for (let i = 0; i < 9 && card; i++) {
-          const text = (card.innerText || '').trim();
+    elif isinstance(value, list):
+        for child in value:
+            find_apps(child, output)
 
-          const headings = [...card.querySelectorAll(
-            'h1,h2,h3,h4,h5,h6'
-          )];
+    return output
 
-          const title = headings
-            .map(h => (h.innerText || '').trim())
-            .find(t => t.length > 1 && t.length < 180);
 
-          const anchors = [...card.querySelectorAll('a[href]')];
+def get_pagination(data):
+    """Find pagination information, if supplied by the page."""
+    props = data.get("props", {})
 
-          if (
-            title &&
-            text.length < 7000 &&
-            anchors.length > 0
-          ) {
-            best = {
-              title,
-              text,
-              html: card,
-              anchors
-            };
-            break;
-          }
+    def walk(value):
+        if isinstance(value, dict):
+            meta = value.get("meta")
+            if isinstance(meta, dict):
+                last = meta.get("last_page") or meta.get("lastPage")
+                if last:
+                    return int(last)
 
-          card = card.parentElement;
-        }
+            last = value.get("last_page") or value.get("lastPage")
+            if last:
+                return int(last)
 
-        if (!best) continue;
+            for child in value.values():
+                result = walk(child)
+                if result:
+                    return result
 
-        const title = best.title;
-        if (seen.has(title)) continue;
-        seen.add(title);
+        elif isinstance(value, list):
+            for child in value:
+                result = walk(child)
+                if result:
+                    return result
 
-        const links = best.anchors.map(a => ({
-          text: (a.innerText || a.title || '').trim(),
-          href: a.href,
-          image: a.querySelector('img')?.src || null
-        }));
+        return None
 
-        const downloadLinks = links.filter(x =>
-          /download|تحميل|تنزيل/i.test(x.text + ' ' + x.href)
-        );
+    return walk(props)
 
-        const detailLinks = links.filter(x =>
-          x.href &&
-          !/download|تحميل|تنزيل/i.test(x.text + ' ' + x.href) &&
-          !/javascript:|#/.test(x.href)
-        );
 
-        const icon = best.html.querySelector('img');
+def make_game(app, category):
+    uuid = app.get("uuid")
 
-        output.push({
-          name: title,
-          description: best.text.slice(0, 2500),
-          link: detailLinks.length ? detailLinks[0].href : '',
-          icon: icon ? (icon.src || icon.getAttribute('data-src')) : null,
-          downloads: downloadLinks.map(x => ({
-            name: x.text || 'Download',
-            link: x.href
-          }))
-        });
-      }
+    detail_url = f"{BASE}/en/iapps/{uuid}"
+    download_url = f"{BASE}/api/iapps/{uuid}/download"
 
-      return output;
+    image = app.get("image")
+    if image and image.startswith("/"):
+        image = BASE + image
+
+    supplied_download = app.get("downloadURL")
+
+    downloads = []
+
+    if supplied_download:
+        downloads.append({
+            "name": "Original Download",
+            "link": supplied_download
+        })
+
+    # Official CheckOver download endpoint.
+    downloads.append({
+        "name": "CheckOver Download",
+        "link": download_url
+    })
+
+    return {
+        "uuid": uuid,
+        "name": app.get("name"),
+        "link": detail_url,
+        "icon": image,
+        "description": app.get("description"),
+        "version": app.get("version"),
+        "size": app.get("size"),
+        "bundle": app.get("bundle"),
+        "downloads_count": app.get("downloads"),
+        "category": category,
+        "downloadURL": supplied_download,
+        "downloads": downloads
     }
-    """) 
-
-
-def add_game(games, item, category):
-    name = (item.get("name") or "").strip()
-    link = clean(item.get("link") or "")
-
-    if not name or len(name) < 2:
-        return
-
-    if not link:
-        print("No detail link:", name, flush=True)
-        return
-
-    if link in games:
-        game = games[link]
-    else:
-        game = {
-            "name": name,
-            "link": link,
-            "icon": item.get("icon"),
-            "category": category,
-            "description": item.get("description", ""),
-            "downloads": []
-        }
-        games[link] = game
-
-    if not game["icon"] and item.get("icon"):
-        game["icon"] = absolute(item["icon"])
-
-    for download in item.get("downloads", []):
-        href = absolute(download.get("link"))
-
-        if not href or href.startswith("javascript:"):
-            continue
-
-        if not any(x["link"] == href for x in game["downloads"]):
-            game["downloads"].append({
-                "name": download.get("name") or "Download",
-                "link": href
-            })
-
-
-def get_detail_downloads(page):
-    return page.locator("a[href]").evaluate_all("""
-    els => els.map(a => ({
-      name: (a.innerText || a.title ||
-        a.getAttribute('aria-label') || '').trim(),
-      link: a.href
-    })).filter(x =>
-      /download|تحميل|تنزيل|install/i.test(x.name + ' ' + x.link)
-    )
-    """)
-
-
-def scroll_page(page):
-    for _ in range(6):
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(700)
 
 
 def main():
@@ -218,135 +180,122 @@ def main():
         page = browser.new_page(
             viewport={"width": 1365, "height": 900}
         )
-        page.set_default_timeout(20000)
 
-        print("Opening website...", flush=True)
+        page.set_default_timeout(30000)
 
-        page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(2500)
+        print("Opening CheckOver...", flush=True)
 
-        categories.update(extract_categories(page))
+        page.goto(
+            URL,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
+        page.wait_for_timeout(2000)
 
-        try:
-            page.goto(
-                BASE + "/en/categories",
-                wait_until="domcontentloaded",
-                timeout=45000
+        home_data = get_page_data(page)
+
+        if not home_data:
+            browser.close()
+            sys.exit("Could not read CheckOver Inertia data.")
+
+        categories_list = find_categories(home_data)
+
+        print(
+            "Game categories found:",
+            len(categories_list),
+            flush=True
+        )
+
+        for category in categories_list:
+            name = category.get("name", "Games")
+            uuid = category.get("uuid")
+
+            if uuid:
+                categories[uuid] = name
+
+        if not categories:
+            browser.close()
+            sys.exit("No game categories found in homepage data.")
+
+        for category_uuid, category_name in categories.items():
+            print(
+                "\nCategory:",
+                category_name,
+                "| UUID:",
+                category_uuid,
+                flush=True
             )
-            page.wait_for_timeout(2000)
-            categories.update(extract_categories(page))
-        except Exception as e:
-            print("Category warning:", str(e)[:150], flush=True)
 
-        print("Categories:", len(categories), flush=True)
-
-        for category_url, category_name in categories.items():
-            print("\nCATEGORY:", category_name, flush=True)
-
+            last_page = 100
             previous_signature = None
 
-            for page_number in range(1, 31):
-                target = category_url
-
-                if page_number > 1:
-                    parsed = urlparse(target)
-                    query = parse_qs(parsed.query)
-                    query["page"] = [str(page_number)]
-                    target = urlunparse(
-                        parsed._replace(
-                            query=urlencode(query, doseq=True)
-                        )
-                    )
+            for page_number in range(1, last_page + 1):
+                category_url = (
+                    f"{BASE}/en/categories/{category_uuid}"
+                    f"?page={page_number}"
+                )
 
                 try:
-                    response = page.goto(
-                        target,
+                    page.goto(
+                        category_url,
                         wait_until="domcontentloaded",
                         timeout=45000
                     )
+                    page.wait_for_timeout(1000)
 
-                    if response and response.status >= 400:
-                        print("HTTP:", response.status, flush=True)
+                    data = get_page_data(page)
+
+                    if not data:
+                        print("No Inertia data; stopping category.", flush=True)
                         break
 
-                    page.wait_for_timeout(1500)
-                    scroll_page(page)
+                    props = data.get("props", {})
+                    apps = find_apps(props)
 
-                    cards = extract_cards(page, category_name)
+                    # The first page may have category apps in its own props.
+                    signature = "|".join(sorted(apps.keys()))
 
-                    signature = "|".join(
-                        x.get("name", "") for x in cards
-                    )
+                    new_count = 0
 
-                    new_before = len(games)
-
-                    for card in cards:
-                        add_game(games, card, category_name)
-
-                    new_games = len(games) - new_before
+                    for app_uuid, app in apps.items():
+                        if app_uuid not in games:
+                            games[app_uuid] = make_game(
+                                app,
+                                category_name
+                            )
+                            new_count += 1
 
                     print(
                         "Page:", page_number,
-                        "| Cards:", len(cards),
-                        "| New:", new_games,
+                        "| Apps:", len(apps),
+                        "| New:", new_count,
                         "| Total:", len(games),
                         flush=True
                     )
 
-                    if not cards:
+                    detected_last = get_pagination(data)
+                    if detected_last:
+                        last_page = min(detected_last, 100)
+
+                    if not apps:
                         break
 
                     if signature == previous_signature:
-                        print("Same page repeated; stopping.", flush=True)
+                        print("Repeated page; stopping.", flush=True)
                         break
 
                     previous_signature = signature
 
+                    if page_number >= last_page:
+                        break
+
                 except Exception as e:
-                    print("Page error:", str(e)[:180], flush=True)
+                    print(
+                        "Category page error:",
+                        str(e)[:200],
+                        flush=True
+                    )
                     break
-
-        # Visit game pages and collect additional download links.
-        game_list = list(games.values())
-
-        for number, game in enumerate(game_list, 1):
-            print(
-                f"DETAIL {number}/{len(game_list)}: {game['name']}",
-                flush=True
-            )
-
-            try:
-                page.goto(
-                    game["link"],
-                    wait_until="domcontentloaded",
-                    timeout=45000
-                )
-                page.wait_for_timeout(1000)
-
-                for item in get_detail_downloads(page):
-                    href = absolute(item["link"])
-
-                    if href and not any(
-                        x["link"] == href for x in game["downloads"]
-                    ):
-                        game["downloads"].append({
-                            "name": item["name"] or "Download",
-                            "link": href
-                        })
-
-                if not game["icon"]:
-                    game["icon"] = page.locator("img").evaluate_all("""
-                    els => {
-                      const x = els.find(i =>
-                        i.src && i.naturalWidth > 80 &&
-                        i.naturalHeight > 80
-                      );
-                      return x ? x.src : null;
-                    }
-                    """)
-
-            except Exception as e:
-                print("Detail warning:", str(e)[:150], flush=True)
 
         browser.close()
 
@@ -354,9 +303,10 @@ def main():
 
     result = {
         "source": URL,
+        "categories": list(categories.values()),
         "count": len(final_games),
         "download_count": sum(
-            len(x["downloads"]) for x in final_games
+            len(game["downloads"]) for game in final_games
         ),
         "games": final_games
     }
@@ -364,13 +314,13 @@ def main():
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print("\n========================", flush=True)
-    print("Games:", result["count"], flush=True)
-    print("Downloads:", result["download_count"], flush=True)
+    print("\n==============================", flush=True)
+    print("Total Games:", result["count"], flush=True)
+    print("Download links:", result["download_count"], flush=True)
     print("Saved:", OUT, flush=True)
 
     if not final_games:
-        sys.exit("No game cards extracted. Check the website HTML.")
+        sys.exit("No games were extracted.")
 
 
 if __name__ == "__main__":
