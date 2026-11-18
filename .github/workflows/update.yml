@@ -12,36 +12,39 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install Playwright
         run: |
+          python -m pip install --upgrade pip
           pip install playwright
           playwright install --with-deps chromium
 
       - name: Run Scraper
-        run: python scrape.py
+        run: python -u scrape.py
+        env:
+          TARGET_URL: https://check0ver.net/en
 
       - name: Validate JSON
-        run: python -m json.tool ashte.json > /dev/null
+        run: |
+          python -m json.tool ashte.json > /dev/null
+          echo "JSON is valid"
 
       - name: Commit Changes
         run: |
           git config user.name "AshteMobile Bot"
           git config user.email "bot@users.noreply.github.com"
-
           git add ashte.json
-
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
+          git diff --cached --quiet || (
             git commit -m "Update Ashte JSON"
             git push
-          fi
+          )
