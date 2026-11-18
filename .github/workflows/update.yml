@@ -10,13 +10,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: ashte-json-scraper
+  group: ashte-scraper
   cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Checkout Repository
@@ -34,25 +34,26 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run Scraper
-        run: python -u scrape.py
         env:
           TARGET_URL: https://check0ver.net/en
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u scrape.py
 
       - name: Validate JSON
         run: |
           python -m json.tool ashte.json > /dev/null
           echo "JSON is valid"
+          python -c "import json; d=json.load(open('ashte.json')); print('Games:', d['count']); print('Downloads:', d['download_count'])"
 
       - name: Commit Changes
         run: |
           git config user.name "AshteMobile Bot"
           git config user.email "bot@users.noreply.github.com"
-
           git add ashte.json
-
-          if ! git diff --cached --quiet; then
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
             git commit -m "Update Ashte JSON"
             git push
-          else
-            echo "No changes to commit"
           fi
