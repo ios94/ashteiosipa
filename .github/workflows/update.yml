@@ -3,7 +3,6 @@ name: Update Ashte JSON
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "0 */6 * * *"
 
@@ -13,14 +12,12 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -30,12 +27,10 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run Scraper
-        env:
-          TARGET_URL: https://check0ver.net/en/iapps
         run: python scrape.py
 
       - name: Validate JSON
-        run: python -m json.tool ashte.json
+        run: python -m json.tool ashte.json > /dev/null
 
       - name: Commit Changes
         run: |
