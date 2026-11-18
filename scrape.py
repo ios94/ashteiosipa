@@ -3,228 +3,190 @@ import json
 import os
 import re
 import sys
-from urllib.parse import urlparse
-from playwright.sync_api import sync_playwright
+from urllib.parse import urljoin, urlparse
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 
-URL = "https://check0ver.net/en"
+URL = os.getenv("TARGET_URL", "https://check0ver.net/en/iapps")
 OUT = "ashte.json"
+MAX_PAGES = 40
+TIMEOUT = 12000
+
+BASE = "https://check0ver.net"
+DOWNLOAD_WORDS = re.compile(
+    r"download|ipa|install|direct|file|mediafire|mega|drive|"
+    r"tweak|appstore|download-link",
+    re.I
+)
+
+SKIP_PATHS = (
+    "/en/packages", "/en/pages/", "/login",
+    "/register", "/privacy", "/terms"
+)
+
+
+def normalize(url):
+    return url.split("#")[0].rstrip("/")
+
+
+def get_links(page):
+    return page.locator("a[href]").evaluate_all("""
+        els => els.map(a => ({
+            name: (a.innerText || a.title || a.getAttribute('aria-label') || '').trim(),
+            link: a.href,
+            icon: a.querySelector('img')?.src || null
+        }))
+    """)
+
+
+def is_download(item):
+    return bool(
+        DOWNLOAD_WORDS.search(item["name"] + " " + item["link"])
+        or re.search(r"\\.(ipa|plist|zip|deb)(\\?|$)", item["link"], re.I)
+    )
+
 
 def main():
-    apps = []
+    games = []
     seen = set()
+    api_urls = set()
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
+
         context = browser.new_context(
-            accept_downloads=True,
-            viewport={"width": 1440, "height": 1100}
+            user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
         )
 
         page = context.new_page()
+        page.set_default_timeout(TIMEOUT)
 
-        def get_apps():
-            page.goto(URL, wait_until="domcontentloaded",
-                      timeout=90000)
-            page.wait_for_timeout(5000)
+        page.on("response", lambda r:
+            api_urls.add(r.url)
+            if "json" in (r.headers.get("content-type") or "").lower()
+            else None
+        )
 
-            for _ in range(10):
-                page.mouse.wheel(0, 3000)
+        print("Opening:", URL, flush=True)
+
+        try:
+            page.goto(URL, wait_until="domcontentloaded", timeout=25000)
+            page.wait_for_timeout(2000)
+        except PlaywrightTimeout:
+            print("Main page timeout; continuing...", flush=True)
+
+        # Limited scrolling - no infinite loading
+        for _ in range(3):
+            page.mouse.wheel(0, 3500)
+            page.wait_for_timeout(500)
+
+        links = get_links(page)
+        candidates = {}
+
+        for item in links:
+            link = normalize(item["link"])
+            parsed = urlparse(link)
+
+            if parsed.netloc not in ("check0ver.net", "www.check0ver.net"):
+                continue
+
+            if not item["name"] or link == normalize(URL):
+                continue
+
+            if any(x in parsed.path.lower() for x in SKIP_PATHS):
+                continue
+
+            if parsed.path in ("/", "/en", "/en/iapps"):
+                continue
+
+            # Ignore common navigation links
+            if item["name"].lower() in (
+                "home", "about us", "pricing plans",
+                "privacy policy", "terms and conditions",
+                "contact us", "login", "register"
+            ):
+                continue
+
+            candidates[link] = item
+
+        print("Found detail pages:", len(candidates), flush=True)
+
+        for number, (link, item) in enumerate(
+            list(candidates.items())[:MAX_PAGES], 1
+        ):
+            if link in seen:
+                continue
+
+            seen.add(link)
+            print(f"[{number}/{min(len(candidates), MAX_PAGES)}] {link}", flush=True)
+
+            downloads = []
+            icon = item.get("icon")
+
+            try:
+                page.goto(
+                    link,
+                    wait_until="domcontentloaded",
+                    timeout=TIMEOUT
+                )
                 page.wait_for_timeout(700)
 
-            return page.locator(
-                "a, button"
-            ).filter(
-                has_text=re.compile(r"^\s*Download\s*$", re.I)
-            )
+                details = get_links(page)
 
-        buttons = get_apps()
-        total = buttons.count()
+                for detail in details:
+                    if is_download(detail):
+                        if detail["link"] not in [
+                            d["link"] for d in downloads
+                        ]:
+                            downloads.append({
+                                "name": detail["name"] or "Download",
+                                "link": detail["link"]
+                            })
 
-        print("Download buttons:", total)
-
-        for i in range(total):
-            try:
-                if i > 0:
-                    buttons = get_apps()
-
-                if i >= buttons.count():
-                    break
-
-                button = buttons.nth(i)
-
-                if not button.is_visible():
-                    continue
-
-                # Get app information from its card
-                info = button.evaluate("""el => {
-                    let node = el;
-                    let best = el.parentElement;
-
-                    for (let i = 0; i < 10 && node; i++) {
-                        const heading = node.querySelector(
-                            'h1,h2,h3,h4,h5'
-                        );
-
-                        const img = node.querySelector('img');
-
-                        if (heading && img) {
-                            best = node;
-                            break;
+                # Find the actual app icon
+                if not icon:
+                    icon = page.locator("img").evaluate_all("""
+                        els => {
+                            const x = els.find(i =>
+                                i.naturalWidth > 80 && i.naturalHeight > 80
+                            );
+                            return x ? x.src : null;
                         }
-
-                        node = node.parentElement;
-                    }
-
-                    const heading = best.querySelector(
-                        'h1,h2,h3,h4,h5'
-                    );
-
-                    const img = best.querySelector('img');
-
-                    return {
-                        name: heading?.innerText?.trim() || '',
-                        icon: img?.src || null,
-                        card: best.innerText || ''
-                    };
-                }""")
-
-                name = info["name"]
-
-                if not name:
-                    continue
-
-                print(f"\n[{i+1}/{total}] {name}")
-
-                captured = []
-                downloaded = []
-                opened_pages = []
-
-                def on_request(req):
-                    if req.resource_type in (
-                        "document", "xhr", "fetch", "other"
-                    ):
-                        captured.append(req.url)
-
-                page.on("request", on_request)
-
-                def on_new_page(new_page):
-                    opened_pages.append(new_page)
-
-                context.on("page", on_new_page)
-
-                # Click the actual Download button
-                try:
-                    with page.expect_download(timeout=5000) as event:
-                        button.click(timeout=10000)
-
-                    download = event.value
-
-                    downloaded.append({
-                        "url": download.url,
-                        "filename": download.suggested_filename
-                    })
-
-                except Exception:
-                    pass
-
-                page.wait_for_timeout(5000)
-
-                # Collect redirect and popup destinations
-                final_url = page.url
-
-                for new_page in opened_pages:
-                    try:
-                        new_page.wait_for_timeout(2000)
-                        captured.append(new_page.url)
-
-                        if new_page.url != "about:blank":
-                            final_url = new_page.url
-
-                    except Exception:
-                        pass
-
-                # Get possible download URLs
-                candidates = []
-
-                for url in captured:
-                    if url and url not in candidates:
-                        candidates.append(url)
-
-                for item in downloaded:
-                    if item["url"] not in candidates:
-                        candidates.append(item["url"])
-
-                # Remove duplicate candidates
-                downloads = []
-
-                for url in candidates:
-                    if url in (
-                        URL,
-                        URL + "/"
-                    ):
-                        continue
-
-                    if url.startswith("blob:"):
-                        continue
-
-                    parsed = urlparse(url)
-
-                    if not parsed.scheme.startswith("http"):
-                        continue
-
-                    if url not in [x["url"] for x in downloads]:
-                        downloads.append({
-                            "url": url,
-                            "source": "download_click"
-                        })
-
-                apps.append({
-                    "name": name,
-                    "icon": info["icon"],
-                    "app_link": final_url,
-                    "downloads": downloads,
-                    "download_filename": (
-                        downloaded[0]["filename"]
-                        if downloaded else None
-                    )
-                })
-
-                print("Captured URLs:", len(downloads))
-
-                for new_page in opened_pages:
-                    try:
-                        new_page.close()
-                    except Exception:
-                        pass
-
-                context.remove_listener("page", on_new_page)
-                page.remove_listener("request", on_request)
+                    """)
 
             except Exception as error:
-                print("Error:", error)
+                print("Page skipped:", str(error)[:150], flush=True)
+
+            games.append({
+                "name": item["name"],
+                "link": link,
+                "icon": icon,
+                "downloads": downloads
+            })
 
         browser.close()
 
     result = {
         "source": URL,
-        "count": len(apps),
-        "games": apps
+        "count": len(games),
+        "download_count": sum(len(x["downloads"]) for x in games),
+        "games": games,
+        "api": sorted(api_urls)
     }
 
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print("\n==========================")
-    print("Apps:", len(apps))
-    print(
-        "Download URLs:",
-        sum(len(x["downloads"]) for x in apps)
-    )
-    print("Saved:", OUT)
-    print("==========================")
+    print("================================", flush=True)
+    print("Saved:", OUT, flush=True)
+    print("Apps:", len(games), flush=True)
+    print("Downloads:", result["download_count"], flush=True)
 
-    if not apps:
-        sys.exit("No apps found")
+    if not games:
+        sys.exit("No app pages found. Check the website selectors.")
+
 
 if __name__ == "__main__":
     main()
