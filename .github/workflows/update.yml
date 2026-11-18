@@ -42,7 +42,7 @@ jobs:
       - name: Validate JSON
         run: |
           python -m json.tool ashte.json > /dev/null
-          python -c "import json; d=json.load(open('ashte.json')); assert d['count'] > 0, 'No games found'; print('Games:', d['count']); print('Downloads:', d['download_count'])"
+          python -c "import json; d=json.load(open('ashte.json')); assert d['count'] > 0; print('Games:', d['count']); print('Downloads:', d['download_count'])"
 
       - name: Commit Changes
         run: |
