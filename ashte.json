@@ -4,12 +4,12 @@
     {
       "name": "العاب نيتندو سويتش",
       "uuid": "a32cdbd5-18a7-4606-8991-5ee94a28975a",
-      "expected_count": 33
+      "expected_count": 37
     },
     {
       "name": "Games",
       "uuid": "9c60f563-1983-42f0-8882-a26207bd4aaf",
-      "expected_count": 4910
+      "expected_count": 4913
     },
     {
       "name": "Paid Games",
@@ -22,8 +22,8 @@
       "expected_count": 35
     }
   ],
-  "count": 5778,
-  "download_count": 5778,
+  "count": 5786,
+  "download_count": 5858,
   "games": [
     {
       "uuid": "9fe3f665-1581-4fa9-a326-02e043f7a944",
@@ -1664,12 +1664,12 @@
       "link": "https://check0ver.net/en/iapps/a03cf47b-22bd-4456-b674-652cd9cb14fa",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/86147/512x512bb.jpg",
       "description": "- Freeze Currencies",
-      "version": "1.5.3",
-      "size": "176.43 MB",
+      "version": "1.5.4",
+      "size": "174.25 MB",
       "bundle": "com.skybornegames.adorablegarden",
       "uniqueBundle": "com.skybornegames.adorablegarden",
-      "downloads_count": 115,
-      "views": 17,
+      "downloads_count": 118,
+      "views": 18,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -2202,8 +2202,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/172714/67e981d72e915b427bcaa749e9e06b5c.ipa?ref=Nm1paHQ3emNkS2tKYnpjaGFMek93eWFJSHlCM0FIRFl2bjk1MTVPU1hGY210aXByNlZVMlhsVTVYc1c3UWw1UHNQOGhjYXd5NDFBV3BhaFRDak53VDFpcWVOTCttakFTMksyNTRMUHZKM3QxbXhHdWJBWlVNeFhDRGZKL1JwYkloekk5NUlDVkhGNForVy90ajlpN29PUTF5UjNieHdHdzlwWTRoTGMvaGhxL3ZhcFByY3BMTFdtL2NYNWFJWjhF",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/172714/67e981d72e915b427bcaa749e9e06b5c.ipa?ref=Nm1paHQ3emNkS2tKYnpjaGFMek93eWFJSHlCM0FIRFl2bjk1MTVPU1hGY210aXByNlZVMlhsVTVYc1c3UWw1UHNQOGhjYXd5NDFBV3BhaFRDak53VDFpcWVOTCttakFTMksyNTRMUHZKM3QxbXhHdWJBWlVNeFhDRGZKL1JwYkloekk5NUlDVkhGNForVy90ajlpN29PUTF5UjNieHdHdzlwWTRoTGMvaGhxL3ZhcFByY3BMTFdtL2NYNWFJWjhF"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9df9387a-f25f-485b-8dae-eb9d24445a86/download"
@@ -3416,7 +3420,7 @@
       "size": "255.15 MB",
       "bundle": "com.alliancethegame.alliance.airwar",
       "uniqueBundle": "com.alliancethegame.alliance.airwar",
-      "downloads_count": 110,
+      "downloads_count": 113,
       "views": 13,
       "isFree": false,
       "hasAddonFiles": false,
@@ -3605,8 +3609,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175907/55abc5888640b93ac140c7cfa63de435.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoMTcrNVBSV2JnQWdpS3l2Sm1vNHZFVUY2UFk3bUl0QjlMVDJVTE5IbU52ajRuYjJ5YzAxNzRpeG9HdEJMeEpJTk81UUxtQWZ1eHM3OUw3QWF4ZGhELzI2UVhmanVOS3F2V0VsK0t5U0hNQXBMa25jTk5JakFKWlF4dTQyaHFHU016aU5oWDh3ZTZkUVkwb2ZmU3dEaFBCMTNMN1pTdDBtODhRMElOMHhtZW5Z",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175907/55abc5888640b93ac140c7cfa63de435.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoMTcrNVBSV2JnQWdpS3l2Sm1vNHZFVUY2UFk3bUl0QjlMVDJVTE5IbU52ajRuYjJ5YzAxNzRpeG9HdEJMeEpJTk81UUxtQWZ1eHM3OUw3QWF4ZGhELzI2UVhmanVOS3F2V0VsK0t5U0hNQXBMa25jTk5JakFKWlF4dTQyaHFHU016aU5oWDh3ZTZkUVkwb2ZmU3dEaFBCMTNMN1pTdDBtODhRMElOMHhtZW5Z"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a0324345-ea96-4b98-a9ac-18a4dfd8cf2e/download"
@@ -3642,11 +3650,11 @@
       "link": "https://check0ver.net/en/iapps/a2d6198b-0e08-455a-81d8-038264fddd27",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/168132/512x512bb.jpg",
       "description": "- Unlimited Items → use power-ups freely without running out\n- Never Die → play invincibly without puzzle constraints\n- Ghost Arrow → move arrows through obstacles\n- Instant Win → complete any level immediately\n- League Always Rank 1 (Untested) → claim top ranking in competitive modes\n- Skip Ads + No Ads → play uninterrupted without advertisements",
-      "version": "1.39.0",
-      "size": "293.64 MB",
+      "version": "1.40.0",
+      "size": "311 MB",
       "bundle": "com.oakever.arrows",
       "uniqueBundle": "com.oakever.arrows",
-      "downloads_count": 67,
+      "downloads_count": 70,
       "views": 17,
       "isFree": false,
       "hasAddonFiles": false,
@@ -4893,8 +4901,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/7723/c65a02f61fb8a8450ab7912ae4eac3e3.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzc1VINk5NVnZZMkZ5WnlCSlNoMlozL0NNUHNicVFIWndYZHBWbllmeGdLRWFRc2hxa044N0h6SmtQYmd6YXVLT2VNVGkrUlBXYkw0V2RDL3lNbFdWTFBYaklzL0tZL05mWk5NWnE0b0tSMkxRd01UMWkwU1YwVWlRRi9KSkUyQTIvVW00d1M0OHUxOFFYaDRFL2w1ZmZBbkZIVUVXMjFxQ1FmTnh6VC9FbEFG",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/7723/c65a02f61fb8a8450ab7912ae4eac3e3.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzc1VINk5NVnZZMkZ5WnlCSlNoMlozL0NNUHNicVFIWndYZHBWbllmeGdLRWFRc2hxa044N0h6SmtQYmd6YXVLT2VNVGkrUlBXYkw0V2RDL3lNbFdWTFBYaklzL0tZL05mWk5NWnE0b0tSMkxRd01UMWkwU1YwVWlRRi9KSkUyQTIvVW00d1M0OHUxOFFYaDRFL2w1ZmZBbkZIVUVXMjFxQ1FmTnh6VC9FbEFG"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9d3e389b-b6ed-4f81-9676-638f3435dd57/download"
@@ -5233,7 +5245,7 @@
       "size": "168.81 MB",
       "bundle": "com.pixeldev.APEXRacers",
       "uniqueBundle": "com.pixeldev.APEXRacers",
-      "downloads_count": 638,
+      "downloads_count": 639,
       "views": 127,
       "isFree": false,
       "hasAddonFiles": false,
@@ -5919,17 +5931,21 @@
       "link": "https://check0ver.net/en/iapps/a294b20e-350b-4a03-8add-52cd35706c28",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/162067/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your attack output\n- Defence Multiplier → increase your defensive resilience\n- Never Die → become invulnerable in combat\n- XP Drop Multiplier → accelerate character leveling\n- Fever Drop Multiplier → increase bonus reward frequency\n- Gold Drop Multiplier → multiply your currency earnings",
-      "version": "1.14.49",
-      "size": "295.81 MB",
+      "version": "1.14.52",
+      "size": "312.18 MB",
       "bundle": "com.springgames.archercastle",
       "uniqueBundle": "com.springgames.archercastle",
-      "downloads_count": 113,
-      "views": 55,
+      "downloads_count": 116,
+      "views": 56,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179724/37204a6fe0c83c43f00fcdaea8a79050.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4RERCcCtycUtOQWJPcmlvN01FalRUZ05ieGdDOHlyeU9WYkNySUhZa1M3TFRvNDBLZkJSRW5ha3p5eXFXd1pZOHE0YlZNaVhVVGRUY05XRWVYQW5JR0RzODhXTjhkckp5clYzZ0t3WFpocnduNGFvalk3MFhzdjRZZEttZjJaZmFXMmkyT29SOTdKakI4R1JrZnQ1N0FkcWlkUkZuL3MwTTNyeWIvTUtMS25L",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179724/37204a6fe0c83c43f00fcdaea8a79050.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4RERCcCtycUtOQWJPcmlvN01FalRUZ05ieGdDOHlyeU9WYkNySUhZa1M3TFRvNDBLZkJSRW5ha3p5eXFXd1pZOHE0YlZNaVhVVGRUY05XRWVYQW5JR0RzODhXTjhkckp5clYzZ0t3WFpocnduNGFvalk3MFhzdjRZZEttZjJaZmFXMmkyT29SOTdKakI4R1JrZnQ1N0FkcWlkUkZuL3MwTTNyeWIvTUtMS25L"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a294b20e-350b-4a03-8add-52cd35706c28/download"
@@ -6912,7 +6928,7 @@
       "size": "837.78 MB",
       "bundle": "com.ubisoft.accovenant",
       "uniqueBundle": "com.ubisoft.accovenant",
-      "downloads_count": 137,
+      "downloads_count": 138,
       "views": 17,
       "isFree": false,
       "hasAddonFiles": false,
@@ -7345,17 +7361,21 @@
       "link": "https://check0ver.net/en/iapps/a342994b-064f-4afa-bc17-b72a5aeef629",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179062/512x512bb.jpg",
       "description": "- Max Coins → unlimited currency for upgrades\n- Max Gems → premium currency at full capacity\n- Max Tickets → race as much as you want\n- Unlock Card Reroll → retry skill card picks at each gate",
-      "version": "1.0.3",
-      "size": "136.79 MB",
+      "version": "1.0.4",
+      "size": "173.37 MB",
       "bundle": "com.peb.autorace",
       "uniqueBundle": "com.peb.autorace",
-      "downloads_count": 3,
+      "downloads_count": 5,
       "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179734/ddbbf4afd2a80ce82fc77de7a21a8867.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMDlOZ0NrckJlZDZpdU1FTWJCSEpYNTIzTjE2UURJQTR5NFBRUFZTRHpOV2VQc2VpWlR6UXRvajRxeGRQVldQZ0xBNkI4NzEvQytyL1VORXA1YmVCVXcxQWI4Qm5sVm1iSG9NTGlhTE9UUk14WExVZ3ZMWGo5SmdIdTRhanRqZEoxVjBBYWpHL3haMU1oVUdmRHE0dDRJUzlRaEhSZVdWR24wa2VUWlRUZzJT",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179734/ddbbf4afd2a80ce82fc77de7a21a8867.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMDlOZ0NrckJlZDZpdU1FTWJCSEpYNTIzTjE2UURJQTR5NFBRUFZTRHpOV2VQc2VpWlR6UXRvajRxeGRQVldQZ0xBNkI4NzEvQytyL1VORXA1YmVCVXcxQWI4Qm5sVm1iSG9NTGlhTE9UUk14WExVZ3ZMWGo5SmdIdTRhanRqZEoxVjBBYWpHL3haMU1oVUdmRHE0dDRJUzlRaEhSZVdWR24wa2VUWlRUZzJT"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a342994b-064f-4afa-bc17-b72a5aeef629/download"
@@ -7741,7 +7761,7 @@
       "bundle": "com.2kb.mob",
       "uniqueBundle": "com.2kb.mob",
       "downloads_count": 135,
-      "views": 6,
+      "views": 7,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
@@ -10132,7 +10152,7 @@
       "size": "302.17 MB",
       "bundle": "com.bid.master.war.auction.battle",
       "uniqueBundle": "com.bid.master.war.auction.battle",
-      "downloads_count": 81,
+      "downloads_count": 82,
       "views": 11,
       "isFree": false,
       "hasAddonFiles": false,
@@ -11103,8 +11123,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/169809/654d9c489214996536d00049f2282349.ipa?ref=U0JoQm5aTkNBazdVc0N0ZFI5Mzc0WE1tU0RjeCsxa0E1cTNySUJiSjhqbXY3NmErdnhNYzBIbjFNQzFFRXRvUmsxVi9wTEE0eXhHbXowTlo0TXR5VlhzNS8yR1NKKzVPNzZQVHRzVnZSd2tQVEFTdkQ1ZmFWT2g0QmRpRFRPMzc2elZaQnhlWGlSanVUUmhqZS9BSUsvQlowSGNST1J6Y3M2SEY5dDNXNE95SG1BMkdheTZWcjkyLzFERGJGQnpU",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/169809/654d9c489214996536d00049f2282349.ipa?ref=U0JoQm5aTkNBazdVc0N0ZFI5Mzc0WE1tU0RjeCsxa0E1cTNySUJiSjhqbXY3NmErdnhNYzBIbjFNQzFFRXRvUmsxVi9wTEE0eXhHbXowTlo0TXR5VlhzNS8yR1NKKzVPNzZQVHRzVnZSd2tQVEFTdkQ1ZmFWT2g0QmRpRFRPMzc2elZaQnhlWGlSanVUUmhqZS9BSUsvQlowSGNST1J6Y3M2SEY5dDNXNE95SG1BMkdheTZWcjkyLzFERGJGQnpU"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2e8e3a4-27cd-4dfd-87f4-979b2761349b/download"
@@ -11213,7 +11237,7 @@
       "size": "87.45 MB",
       "bundle": "com.blockpuzzle.us.ios",
       "uniqueBundle": "com.blockpuzzle.us.ios.iosgod",
-      "downloads_count": 401,
+      "downloads_count": 402,
       "views": 75,
       "isFree": false,
       "hasAddonFiles": false,
@@ -11991,11 +12015,11 @@
       "link": "https://check0ver.net/en/iapps/a1dac9b4-31b9-4013-9542-9c15eabedb9b",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/144162/512x512bb.jpg",
       "description": "- Golden Energy Freeze",
-      "version": "0.32.0",
-      "size": "484.42 MB",
+      "version": "0.34.1",
+      "size": "508.04 MB",
       "bundle": "com.fortisgames.mergefarmadventure",
       "uniqueBundle": "com.fortisgames.mergefarmadventure",
-      "downloads_count": 52,
+      "downloads_count": 54,
       "views": 46,
       "isFree": false,
       "hasAddonFiles": false,
@@ -12433,7 +12457,7 @@
       "bundle": "com.budgestudios.BlueyBLU",
       "uniqueBundle": "com.budgestudios.BlueyBLU",
       "downloads_count": 60,
-      "views": 2,
+      "views": 3,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -13375,7 +13399,7 @@
       "size": "139.27 MB",
       "bundle": "com.unicostudio.braintest3",
       "uniqueBundle": "com.unicostudio.braintest3",
-      "downloads_count": 359,
+      "downloads_count": 360,
       "views": 94,
       "isFree": false,
       "hasAddonFiles": false,
@@ -13467,7 +13491,7 @@
       "size": "156.63 MB",
       "bundle": "com.unicostudio.braintest",
       "uniqueBundle": "com.unicostudio.braintest",
-      "downloads_count": 391,
+      "downloads_count": 392,
       "views": 75,
       "isFree": false,
       "hasAddonFiles": false,
@@ -15050,17 +15074,21 @@
       "link": "https://check0ver.net/en/iapps/a293b82e-a54e-4319-b188-96ab910935ef",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/161978/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your unit and skill damage output\n- Defense Multiplier → strengthen your bunker's resistance to incoming attacks\n- Gems/Gold Increase → accelerate resource farming for upgrades and merges\n- Game Speed Multiplier → speed up battles and progression\n- No ADS → play uninterrupted without advertisements",
-      "version": "1.1.1",
-      "size": "167.17 MB",
+      "version": "1.1.2",
+      "size": "167.64 MB",
       "bundle": "com.TeamSparta.brd",
       "uniqueBundle": "com.TeamSparta.brd",
-      "downloads_count": 64,
-      "views": 46,
+      "downloads_count": 68,
+      "views": 47,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179712/7fcd9c52c6038f1bf2cf4dc674b26461.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzb3lhMkhibjVUYjh5RUtENEpHNzk1S1NmQmlZZnR4eWJkSFZtTFFldE1OdEdWek9vc3VPSVQ1Mng1RndrRWJqdGhqcnBra3o0NEZxdGlpb0lZYWsxeXJjU3JDWGFCK0E3ODJpNXRwcE55bWFqaWpCSWMxSXd1VGxLM0F4UnRCUEI3YVBHY0l0QzRzVEpmLytScHdwU2F5WlJoVk1WbEpaKzRRSWs1cm1ISE9B",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179712/7fcd9c52c6038f1bf2cf4dc674b26461.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzb3lhMkhibjVUYjh5RUtENEpHNzk1S1NmQmlZZnR4eWJkSFZtTFFldE1OdEdWek9vc3VPSVQ1Mng1RndrRWJqdGhqcnBra3o0NEZxdGlpb0lZYWsxeXJjU3JDWGFCK0E3ODJpNXRwcE55bWFqaWpCSWMxSXd1VGxLM0F4UnRCUEI3YVBHY0l0QzRzVEpmLytScHdwU2F5WlJoVk1WbEpaKzRRSWs1cm1ISE9B"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a293b82e-a54e-4319-b188-96ab910935ef/download"
@@ -16453,12 +16481,12 @@
       "link": "https://check0ver.net/en/iapps/9efb4100-9bb2-4b5f-8218-895effc690a5",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116996/512x512bb.jpg",
       "description": "- Auto Win\n- Coins\n- Moves",
-      "version": "1.72.1117",
+      "version": "1.72.1120",
       "size": "148.09 MB",
       "bundle": "com.gamoper.candysweetstory.ios",
       "uniqueBundle": "com.gamoper.candysweetstory.ios",
-      "downloads_count": 394,
-      "views": 49,
+      "downloads_count": 397,
+      "views": 50,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -17193,7 +17221,7 @@
       "size": "2.21 GB",
       "bundle": "com.aidana.cardriving.ios",
       "uniqueBundle": "com.aidana.cardriving.ios",
-      "downloads_count": 93,
+      "downloads_count": 95,
       "views": 20,
       "isFree": false,
       "hasAddonFiles": false,
@@ -18044,7 +18072,7 @@
       "size": "759.35 MB",
       "bundle": "com.carxtech.sr",
       "uniqueBundle": "com.carxtech.sr",
-      "downloads_count": 4283,
+      "downloads_count": 4285,
       "views": 149,
       "isFree": false,
       "hasAddonFiles": false,
@@ -18228,7 +18256,7 @@
       "size": "161.67 MB",
       "bundle": "com.nanotribe.games.cashier3d",
       "uniqueBundle": "com.nanotribe.games.cashier3d",
-      "downloads_count": 85,
+      "downloads_count": 86,
       "views": 20,
       "isFree": false,
       "hasAddonFiles": false,
@@ -18251,8 +18279,8 @@
       "size": "427.01 MB",
       "bundle": "com.epicoro.castleclashers",
       "uniqueBundle": "com.epicoro.castleclashers",
-      "downloads_count": 780,
-      "views": 91,
+      "downloads_count": 1115,
+      "views": 92,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -20050,8 +20078,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152290/075223cae997b9743f6e58e21e01b611.ipa?ref=WTd5SjE0cTRucmlCMDdodnU3RkRaaDA4K2pMV09JLzZmRGdoRjlIVkNZRXo3QnBRZSt0T2thZ0N1QUJIbnIxMmpyRG01SU0rQWlzRldtYmxmTTFhMThnTnRZUGJ1SndObDl5eTdSUkp0bzhrZnBnbitmeFF6c28veW5nRDNNWk1sOFI4Qk15SGg5SURLQXM1UEU3cTF6TjJEcEJSaU55WDhjTmpaek9EQm5iWGRQUFJoMVR6NFBMZEprcDhWaHBw",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152290/075223cae997b9743f6e58e21e01b611.ipa?ref=WTd5SjE0cTRucmlCMDdodnU3RkRaaDA4K2pMV09JLzZmRGdoRjlIVkNZRXo3QnBRZSt0T2thZ0N1QUJIbnIxMmpyRG01SU0rQWlzRldtYmxmTTFhMThnTnRZUGJ1SndObDl5eTdSUkp0bzhrZnBnbitmeFF6c28veW5nRDNNWk1sOFI4Qk15SGg5SURLQXM1UEU3cTF6TjJEcEJSaU55WDhjTmpaek9EQm5iWGRQUFJoMVR6NFBMZEprcDhWaHBw"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2211911-286f-49e6-b712-cbb68817e2b2/download"
@@ -21380,7 +21412,7 @@
       "bundle": "com.supercell.magic",
       "uniqueBundle": "com.supercell.magic",
       "downloads_count": 3367,
-      "views": 212,
+      "views": 213,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -21637,8 +21669,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/138335/d66cfee8cf308af176443fd0da1298e2.ipa?ref=dVpySVR0aVFsRXdsWFB3L3N6Qmt3VHVmSmxLVk5zNFA4V0R6bG8yN2lyWStoWVcrOEQ0bTlrUDlWYUQxTndycGcvWWJmWm92bDJkZmJVZVdlOEx1VFh1YUl4MFFJcFdTeHNxQ1FRT1RvNmFRQkdVeENOenhSTjh2RmlBSGhJbDNtMFFrOFVzYzFQVEdTYldzc21GQml5ZFlXclNKaGU0RmYyTUVRYldLNXNYcXhPbWNuTmc2L3pRN2Q3RXNFcXpz",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/138335/d66cfee8cf308af176443fd0da1298e2.ipa?ref=dVpySVR0aVFsRXdsWFB3L3N6Qmt3VHVmSmxLVk5zNFA4V0R6bG8yN2lyWStoWVcrOEQ0bTlrUDlWYUQxTndycGcvWWJmWm92bDJkZmJVZVdlOEx1VFh1YUl4MFFJcFdTeHNxQ1FRT1RvNmFRQkdVeENOenhSTjh2RmlBSGhJbDNtMFFrOFVzYzFQVEdTYldzc21GQml5ZFlXclNKaGU0RmYyTUVRYldLNXNYcXhPbWNuTmc2L3pRN2Q3RXNFcXpz"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a1aed554-d05e-4026-b695-d20ca5309a1f/download"
@@ -22442,8 +22478,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178436/931d2e0ca62b913c7c2136dbf7500695.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNFZC9QM0xTWnFGekFqaW9UN2szcnJsdHNjbGwyY2JkUS9vNHEvMzJUVG5yL0JaVmlmRG9sa0ZQQmhwcTk3cEhMVVpSclphMUFoY09yOW16dHJCRm41",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178436/931d2e0ca62b913c7c2136dbf7500695.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNFZC9QM0xTWnFGekFqaW9UN2szcnJsdHNjbGwyY2JkUS9vNHEvMzJUVG5yL0JaVmlmRG9sa0ZQQmhwcTk3cEhMVVpSclphMUFoY09yOW16dHJCRm41"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33d38a3-dc4c-4bf1-a227-7f404ab63a31/download"
@@ -23794,7 +23834,7 @@
       "size": "132.91 MB",
       "bundle": "com.sgn.cookiejamblast",
       "uniqueBundle": "com.sgn.cookiejamblast",
-      "downloads_count": 145,
+      "downloads_count": 146,
       "views": 21,
       "isFree": false,
       "hasAddonFiles": false,
@@ -24158,17 +24198,21 @@
       "link": "https://check0ver.net/en/iapps/a2058a7b-cf97-4aad-8799-0602fa4c7796",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/148010/512x512bb.jpg",
       "description": "- Unlimited Currencies -> Will increase instead of decrease.",
-      "version": "2.80.0",
-      "size": "245.44 MB",
+      "version": "2.81.0",
+      "size": "244.21 MB",
       "bundle": "com.wonderlegend.cookingwonder",
       "uniqueBundle": "com.wonderlegend.cookingwonder",
-      "downloads_count": 542,
+      "downloads_count": 543,
       "views": 48,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179741/8c56949dca7c24aa2e62c19cfe6a0ade.ipa?ref=Vk5JNHczUThlT0JkYTBmU051SzZjbFAxV2FwZjg3anVKMHFjMS8wbG0zQzFrY1c4WUJpOUtIRllKUlEvMDFzY1VIOWJGT21QOC9ydnYxanN6dTNDQXdyZlFaUXNwVHE0V0Z6VmN5VGtFTXN6UC81NGViRWFyN0ZXbVl4S2x5d202TmJiT2FMTWRZUEJUejV1OXNjSkJVSDhUVm9SeDhabDlrb29yQU02eU5vRTNoZTU0aVE4UVNvZzBNc3pDeTdW",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179741/8c56949dca7c24aa2e62c19cfe6a0ade.ipa?ref=Vk5JNHczUThlT0JkYTBmU051SzZjbFAxV2FwZjg3anVKMHFjMS8wbG0zQzFrY1c4WUJpOUtIRllKUlEvMDFzY1VIOWJGT21QOC9ydnYxanN6dTNDQXdyZlFaUXNwVHE0V0Z6VmN5VGtFTXN6UC81NGViRWFyN0ZXbVl4S2x5d202TmJiT2FMTWRZUEJUejV1OXNjSkJVSDhUVm9SeDhabDlrb29yQU02eU5vRTNoZTU0aVE4UVNvZzBNc3pDeTdW"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2058a7b-cf97-4aad-8799-0602fa4c7796/download"
@@ -27341,8 +27385,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153587/660b3f40eae1b399e3c62970bb32f483.ipa?ref=aWgyT3RkTGd6ZWFiS1ZOK3BkZlB0ekc5aVVERkVwRVpUZzdBTHFEUGFkaUdRNGd4TG9hUnFQelZpS0wvTDNFQm1pTkJ1SDQ3TUJhV1RHNzM4VDJtUDhHT0NXMnpSa0NNRTE0S25iODNWbmhUYldUODI4M2huZGEvWFNFZlB5UjhtaHVlV1BwaUIxbnYrdVJYYURuLzNlS3NDa1VBTWlXeHZIYzlsVnJ4ZmhIZDk0a0lEQ3ZLRlRWdVRQblRwa2M3",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153587/660b3f40eae1b399e3c62970bb32f483.ipa?ref=aWgyT3RkTGd6ZWFiS1ZOK3BkZlB0ekc5aVVERkVwRVpUZzdBTHFEUGFkaUdRNGd4TG9hUnFQelZpS0wvTDNFQm1pTkJ1SDQ3TUJhV1RHNzM4VDJtUDhHT0NXMnpSa0NNRTE0S25iODNWbmhUYldUODI4M2huZGEvWFNFZlB5UjhtaHVlV1BwaUIxbnYrdVJYYURuLzNlS3NDa1VBTWlXeHZIYzlsVnJ4ZmhIZDk0a0lEQ3ZLRlRWdVRQblRwa2M3"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a22d5aec-52eb-44b4-a7ab-02d464216feb/download"
@@ -27364,8 +27412,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/141602/f943387cf059c820b7da04a0f2a77e16.ipa?ref=RHZSdHBGZnNnNkwxdWlpWkk3SGMrM3hOaVZ0ZStRZUZwcDc1NXg3WHNybkJVUS9SYjh0T05sZXlvKzcxa2J6SjNzMTlUYTh3MU11UTRGSm9RN24remN2bC9sVGxpZnUxbXFpeWl0L2NxU3dSZkFuZ0N6ZWREalk3b1FTa0lrYkdubEVhVldvVW9hOUdaa3ljZFh5VTBtUXpxTDFJZnN5ajRNTy93enJITURWRmRLdmdBaUNoTTc0M3JrMVZiMmhK",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/141602/f943387cf059c820b7da04a0f2a77e16.ipa?ref=RHZSdHBGZnNnNkwxdWlpWkk3SGMrM3hOaVZ0ZStRZUZwcDc1NXg3WHNybkJVUS9SYjh0T05sZXlvKzcxa2J6SjNzMTlUYTh3MU11UTRGSm9RN24remN2bC9sVGxpZnUxbXFpeWl0L2NxU3dSZkFuZ0N6ZWREalk3b1FTa0lrYkdubEVhVldvVW9hOUdaa3ljZFh5VTBtUXpxTDFJZnN5ajRNTy93enJITURWRmRLdmdBaUNoTTc0M3JrMVZiMmhK"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a1ddc094-2527-4e0a-b2f7-444b51a9a882/download"
@@ -27387,8 +27439,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/160881/984a415696075b758c6468e247c2d808.ipa?ref=eVJvY2VrellyTXhTZVkvaDdCa0QzVXVuM2RhbG5ZSEhJSVAwN1hOTVJmbyswdUtyKzdXckhKSFJsOVZzdmErNDg2T2E2MVZ5dXo2Tm1kVm4wT3hFeStPTWxQRlMvd0lGWUVVblNHOFVMMmJqTmx3YWNnZE9rM1VMTWFhNHpYYlgwVCs0THUySkVILzIvQnhkZWJTWlhiT3pCTFg0c0RmTnMvQk5XVW5sdVFXOW1zQUQ3aHpMMTNSNzlKTXpsTzl2",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/160881/984a415696075b758c6468e247c2d808.ipa?ref=eVJvY2VrellyTXhTZVkvaDdCa0QzVXVuM2RhbG5ZSEhJSVAwN1hOTVJmbyswdUtyKzdXckhKSFJsOVZzdmErNDg2T2E2MVZ5dXo2Tm1kVm4wT3hFeStPTWxQRlMvd0lGWUVVblNHOFVMMmJqTmx3YWNnZE9rM1VMTWFhNHpYYlgwVCs0THUySkVILzIvQnhkZWJTWlhiT3pCTFg0c0RmTnMvQk5XVW5sdVFXOW1zQUQ3aHpMMTNSNzlKTXpsTzl2"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a1ddc2c1-6e10-4edb-80bf-d81b49fca52b/download"
@@ -27861,11 +27917,11 @@
       "link": "https://check0ver.net/en/iapps/a2d455ba-0fe3-4373-b002-ba330eefbf7a",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/167941/113dece4-f461-47b5-8eac-18c2dd83add9.png",
       "description": "- Perfect Aim Stability\n- Auto Aim Score\n- No ADS",
-      "version": "5.36.1",
-      "size": "175.63 MB",
+      "version": "5.37.0",
+      "size": "175.62 MB",
       "bundle": "uk.co.yakuto.DartsOfFury",
       "uniqueBundle": "uk.co.yakuto.DartsOfFury",
-      "downloads_count": 5,
+      "downloads_count": 7,
       "views": 8,
       "isFree": false,
       "hasAddonFiles": false,
@@ -28183,11 +28239,11 @@
       "link": "https://check0ver.net/en/iapps/a2ea5dc6-9e42-4c02-83cd-9df5f7a5491c",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/169951/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your weapon output\n- Defence Multiplier → strengthen your defenses\n- Never Die → become invulnerable\n- Gold Multiplier → earn currency faster\n- XP Multiplier → level up quicker",
-      "version": "0.8.3085",
-      "size": "122.58 MB",
+      "version": "0.8.3087",
+      "size": "122.65 MB",
       "bundle": "com.mobirate.deadaheadgo",
       "uniqueBundle": "com.mobirate.deadaheadgo",
-      "downloads_count": 72,
+      "downloads_count": 75,
       "views": 28,
       "isFree": false,
       "hasAddonFiles": false,
@@ -29112,8 +29168,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153221/f353d46328b41e1ccc27692e00cdb414.ipa?ref=N3MvZ0N4bmxaVFc0YW9QQXZhQ2dzc21YRnl2ZTBBcjlQQmdxWUFUMEFETXVHKzJlQmtNM0N0Mk9iSmd4NGVjM21qZVRWZDFYMzlkTm1RaEFvTlRTejlObDBacTNRSDlzTjRnQ3k0RU1rTzRWcVhkdEtzUG05Ymd3eWV4YndqVFRTcGR6VHFNMjVpZ0FjeXEzdEVpTkpPb0R0U2JkbXQ1RE9BVTVZRWh6amdOUWh2UzNxczVseFNyY1lEVGxrWGx6",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153221/f353d46328b41e1ccc27692e00cdb414.ipa?ref=N3MvZ0N4bmxaVFc0YW9QQXZhQ2dzc21YRnl2ZTBBcjlQQmdxWUFUMEFETXVHKzJlQmtNM0N0Mk9iSmd4NGVjM21qZVRWZDFYMzlkTm1RaEFvTlRTejlObDBacTNRSDlzTjRnQ3k0RU1rTzRWcVhkdEtzUG05Ymd3eWV4YndqVFRTcGR6VHFNMjVpZ0FjeXEzdEVpTkpPb0R0U2JkbXQ1RE9BVTVZRWh6amdOUWh2UzNxczVseFNyY1lEVGxrWGx6"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a229e339-e051-4e73-b9a7-70caac9a0310/download"
@@ -29655,17 +29715,21 @@
       "link": "https://check0ver.net/en/iapps/a232fc24-5fd5-46eb-924c-de73927dbbc7",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/153913/512x512bb.jpg",
       "description": "- Free Store (This is not iAP) → access premium items without in-app purchases\n- Auto Merge (Turn on only when loaded into Board) → automatically combine tiles for faster gameplay",
-      "version": "1.240.0",
-      "size": "274.24 MB",
+      "version": "1.241.2",
+      "size": "276.7 MB",
       "bundle": "com.tapclap.designville.merge",
       "uniqueBundle": "com.tapclap.designville.merge",
-      "downloads_count": 39,
-      "views": 37,
+      "downloads_count": 42,
+      "views": 38,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179699/d2c53f0b4a0ca8752aa0295f4b3885cf.ipa?ref=OW5oSFdOT053U2RBSU1LL3FXS3ppUHd3NGJkdVJydnJiMU12dW5zeFNGZFU1Yk4wa081U2p6cTRXaW9pTmxFcnNHeGhBcmI0b1ZBUmZEUTNtSmNKTmQ0SmdsUmhoVVJoeFBJZWMwNTVHSDNjZjlvTTdjOHZVak5kQWpzSU1oQXhGS0hNMTBwRTBRSWltSThPV0J5U0ZSK3NCMkcyWWVGbUxIZC9oZE1qMzZrYmZuTTlxVG5HZUNKZ2gwbnpJRUZV",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179699/d2c53f0b4a0ca8752aa0295f4b3885cf.ipa?ref=OW5oSFdOT053U2RBSU1LL3FXS3ppUHd3NGJkdVJydnJiMU12dW5zeFNGZFU1Yk4wa081U2p6cTRXaW9pTmxFcnNHeGhBcmI0b1ZBUmZEUTNtSmNKTmQ0SmdsUmhoVVJoeFBJZWMwNTVHSDNjZjlvTTdjOHZVak5kQWpzSU1oQXhGS0hNMTBwRTBRSWltSThPV0J5U0ZSK3NCMkcyWWVGbUxIZC9oZE1qMzZrYmZuTTlxVG5HZUNKZ2gwbnpJRUZV"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a232fc24-5fd5-46eb-924c-de73927dbbc7/download"
@@ -29843,8 +29907,8 @@
       "size": "109.68 MB",
       "bundle": "escape.detective",
       "uniqueBundle": "escape.detective",
-      "downloads_count": 1,
-      "views": 0,
+      "downloads_count": 2,
+      "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -32056,8 +32120,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/139341/132ff11b57ded7938ae1a845e5124c8b.ipa?ref=U0xhTUNFYnhhaDdBeThOSjA1UUpMZlhHYW5LcmdHeUt2eVJHblVTOEJka3ErOWxSVlZiUkdrWWY5emwvSUlpQ3NxMnZmU2J1KzRKREk0SVhTUlkybnJGa3BhdkZhbjdLY1crL1pSTXpxZFErVWlqS1JWbVJpM2ljSlBuem9kSEtBSExWRFNyTXhLOVRjeXd3TDlFRjhlcHpUNU5RcDhrRlA0REw4bTQwT0E1M2pZREhUQnArS0tFYjVaa0lxY3RV",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/139341/132ff11b57ded7938ae1a845e5124c8b.ipa?ref=U0xhTUNFYnhhaDdBeThOSjA1UUpMZlhHYW5LcmdHeUt2eVJHblVTOEJka3ErOWxSVlZiUkdrWWY5emwvSUlpQ3NxMnZmU2J1KzRKREk0SVhTUlkybnJGa3BhdkZhbjdLY1crL1pSTXpxZFErVWlqS1JWbVJpM2ljSlBuem9kSEtBSExWRFNyTXhLOVRjeXd3TDlFRjhlcHpUNU5RcDhrRlA0REw4bTQwT0E1M2pZREhUQnArS0tFYjVaa0lxY3RV"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9c8ef9f5-7833-44ef-988a-211e0dbfb46c/download"
@@ -32166,7 +32234,7 @@
       "size": "413.07 MB",
       "bundle": "com.doomsdayvanguard.survivor",
       "uniqueBundle": "com.doomsdayvanguard.survivor",
-      "downloads_count": 200,
+      "downloads_count": 201,
       "views": 25,
       "isFree": false,
       "hasAddonFiles": false,
@@ -32603,7 +32671,7 @@
       "size": "148.34 MB",
       "bundle": "jp.co.bandainamcoent.BNEI0333",
       "uniqueBundle": "jp.co.bandainamcoent.BNEI0333",
-      "downloads_count": 43,
+      "downloads_count": 44,
       "views": 71,
       "isFree": false,
       "hasAddonFiles": false,
@@ -32659,6 +32727,33 @@
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9c695e19-5538-44de-bd04-dfde55421d34/download"
+        }
+      ]
+    },
+    {
+      "uuid": "a345fd6f-ff68-4989-b9cb-40bd9de563ce",
+      "name": "DRAGON BALL: Sparking! ZERO",
+      "link": "https://check0ver.net/en/iapps/a345fd6f-ff68-4989-b9cb-40bd9de563ce",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179580/1c6bb20a-23f5-42b7-a983-8ce4a8d69e2a.png",
+      "description": "How to play the game:\r\n\r\nAfter opening the game, a prompt to download game files will appear. Tap \"Download\" and wait for the process to complete. Once finished, close the game, reopen it, and start playing.\r\n\r\nCompatible with iPhone 16 and later models; requires version 26 or higher.",
+      "version": "1.0",
+      "size": "737.43 MB",
+      "bundle": "org.nxnative.010035F022078000",
+      "uniqueBundle": "org.nxnative.010035F022078000",
+      "downloads_count": 3,
+      "views": 2,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "العاب نيتندو سويتش",
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179581/fc9f1aa1274f1491280beee72348bc60.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYmFWT2xQUmhZamVVZUtySnc1UFlwODhRT0lhOWR0OWVSYXI4NThHYmdMN2JSWnV1dzFnODhOQWNPWVJEK3MxRWN6eUt3NHRoaDVBZWRDMVgvZ0Y5WFJj",
+      "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179581/fc9f1aa1274f1491280beee72348bc60.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYmFWT2xQUmhZamVVZUtySnc1UFlwODhRT0lhOWR0OWVSYXI4NThHYmdMN2JSWnV1dzFnODhOQWNPWVJEK3MxRWN6eUt3NHRoaDVBZWRDMVgvZ0Y5WFJj"
+        },
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a345fd6f-ff68-4989-b9cb-40bd9de563ce/download"
         }
       ]
     },
@@ -32783,11 +32878,11 @@
       "link": "https://check0ver.net/en/iapps/a160a44f-96ae-457d-9181-e6f146868996",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/129311/512x512bb.jpg",
       "description": "- Never die\n- Multiply Attack\n- Skip Ads",
-      "version": "3.14.1",
-      "size": "314.2 MB",
+      "version": "3.14.2",
+      "size": "319.17 MB",
       "bundle": "com.traverse.zhfx.en.ios",
       "uniqueBundle": "com.traverse.zhfx.en.ios",
-      "downloads_count": 106,
+      "downloads_count": 109,
       "views": 32,
       "isFree": false,
       "hasAddonFiles": false,
@@ -33013,11 +33108,11 @@
       "link": "https://check0ver.net/en/iapps/a33b9f49-a56d-4029-b81e-cf5ad736913f",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/178331/512x512bb.jpg",
       "description": "- Never Die (PvE) → invulnerability in player-versus-environment battles\n- 10x Damage (PvE) → massively increased attack power\n- 3x Battle Speed (PvE) → accelerated combat encounters",
-      "version": "1.0.28",
-      "size": "998.9 MB",
+      "version": "1.0.29",
+      "size": "1023.36 MB",
       "bundle": "com.highbrow.games.dvo",
       "uniqueBundle": "com.highbrow.games.dvo",
-      "downloads_count": 6,
+      "downloads_count": 8,
       "views": 9,
       "isFree": false,
       "hasAddonFiles": false,
@@ -34834,7 +34929,7 @@
       "size": "111.6 MB",
       "bundle": "io.voodoo.dune",
       "uniqueBundle": "io.voodoo.dune",
-      "downloads_count": 181,
+      "downloads_count": 183,
       "views": 23,
       "isFree": false,
       "hasAddonFiles": false,
@@ -36444,7 +36539,7 @@
       "size": "3.07 GB",
       "bundle": "jp.konami.pesactionmobile",
       "uniqueBundle": "jp.konami.pesactionmobile",
-      "downloads_count": 1137,
+      "downloads_count": 1138,
       "views": 84,
       "isFree": false,
       "hasAddonFiles": false,
@@ -36974,7 +37069,7 @@
       "bundle": "com.longgammagames.elementra.journy",
       "uniqueBundle": "com.longgammagames.elementra.journy",
       "downloads_count": 122,
-      "views": 52,
+      "views": 53,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -37907,6 +38002,29 @@
       ]
     },
     {
+      "uuid": "a346dfd6-2df3-4c6c-9f0a-3d50c8638e68",
+      "name": "Epic Conquest",
+      "link": "https://check0ver.net/en/iapps/a346dfd6-2df3-4c6c-9f0a-3d50c8638e68",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179672/512x512bb.jpg",
+      "description": "- Damage Multiplier → amplify your attack output\n- Defense Multiplier → boost your damage reduction\n- Currency Multiplier → earn gold faster\n- Attack Speed Multiplier → strike more frequently\n- Move Speed Multiplier → traverse the world quicker\n- Exp Multiplier → level up rapidly\n- Unlock Everything → access all content immediately\n- Free Premium Chest → claim premium rewards without cost\n- No ADS → play uninterrupted",
+      "version": "7.0",
+      "size": "220.65 MB",
+      "bundle": "com.gacogames.epiccon",
+      "uniqueBundle": "com.gacogames.epiccon",
+      "downloads_count": 2,
+      "views": 1,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "Games",
+      "downloadURL": null,
+      "downloads": [
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a346dfd6-2df3-4c6c-9f0a-3d50c8638e68/download"
+        }
+      ]
+    },
+    {
       "uuid": "9c7cee6d-3415-490f-8dcc-3e1b9de75ffc",
       "name": "Epic Conquest 2",
       "link": "https://check0ver.net/en/iapps/9c7cee6d-3415-490f-8dcc-3e1b9de75ffc",
@@ -38101,7 +38219,7 @@
       "bundle": "com.sodeepilabs.glamsquad",
       "uniqueBundle": "com.sodeepilabs.glamsquad",
       "downloads_count": 156,
-      "views": 3,
+      "views": 4,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -38372,17 +38490,21 @@
       "link": "https://check0ver.net/en/iapps/9eddde5f-05c2-4862-92f2-696d3e4864e6",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/120081/512x512bb.jpg",
       "description": "- No Ads\n- Freeze Lives\n- Unlimited Coins\n- Freeze Minigame Timers",
-      "version": "2.36.0",
-      "size": "189.05 MB",
+      "version": "2.37.1",
+      "size": "189.94 MB",
       "bundle": "webelinx.EscapeRoom.Free.Portrait.Game.free2",
       "uniqueBundle": "webelinx.EscapeRoom.Free.Portrait.Game.free2",
-      "downloads_count": 160,
+      "downloads_count": 161,
       "views": 12,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179740/c2e362896d6ebe4e181ff6934e2f0697.ipa?ref=RHIwN1R6Y1FQZ2pzSWRab1N2TS80TnlsamtrNDkwaXo0RXlBN1cvRmNhc0hCSjhqTTA3YTJNTDlFYXpRdmhSNFpKdEZNSVE2cFlobFd0emJPOU1jUU5xa0tDOTNKR3BQNXFhdjBtZit5bVFiS1UydmRxUTB4bEFpZm5yR1pwZVgyK0k5MUI5dEcrcHRzL1VSR0NDSmNTUEYySnpIcWF1R1E0ZWhZV2xKYVZOU1dNVTJUN1Y3dytMbzllbzFSakZi",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179740/c2e362896d6ebe4e181ff6934e2f0697.ipa?ref=RHIwN1R6Y1FQZ2pzSWRab1N2TS80TnlsamtrNDkwaXo0RXlBN1cvRmNhc0hCSjhqTTA3YTJNTDlFYXpRdmhSNFpKdEZNSVE2cFlobFd0emJPOU1jUU5xa0tDOTNKR3BQNXFhdjBtZit5bVFiS1UydmRxUTB4bEFpZm5yR1pwZVgyK0k5MUI5dEcrcHRzL1VSR0NDSmNTUEYySnpIcWF1R1E0ZWhZV2xKYVZOU1dNVTJUN1Y3dytMbzllbzFSakZi"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9eddde5f-05c2-4862-92f2-696d3e4864e6/download"
@@ -38795,8 +38917,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/166884/9d1e993813be1d02c52eefef789c70c5.ipa?ref=NFRUZTVKdG9tVE5aVFlZRnJZSUM2d1hXdGtIMzlEZTRhR1dLWnNrL2ZVVHJGNkxCVDZYVzJNSTV6NkNOS0JyNWhyN3BqYnFpT3ptcDlWYSs0b0lSUGVIRlVFNmkvVDIxbUF4b1c2WUZFMjNzc3VPaGVwNk5zTWo3YVk4TmJ5NXBZR1ErTjM4SHdJQm9kUWQyYWg4am4xQjdPVE9rSjYxUDZCWUIrNGlMNE5MMm5VVi92b1lQWkJQdWhUZnZqN3Mw",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/166884/9d1e993813be1d02c52eefef789c70c5.ipa?ref=NFRUZTVKdG9tVE5aVFlZRnJZSUM2d1hXdGtIMzlEZTRhR1dLWnNrL2ZVVHJGNkxCVDZYVzJNSTV6NkNOS0JyNWhyN3BqYnFpT3ptcDlWYSs0b0lSUGVIRlVFNmkvVDIxbUF4b1c2WUZFMjNzc3VPaGVwNk5zTWo3YVk4TmJ5NXBZR1ErTjM4SHdJQm9kUWQyYWg4am4xQjdPVE9rSjYxUDZCWUIrNGlMNE5MMm5VVi92b1lQWkJQdWhUZnZqN3Mw"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2c91fd6-c0d8-4f80-853c-3790458f8c7e/download"
@@ -39108,17 +39234,21 @@
       "link": "https://check0ver.net/en/iapps/a2f2b948-9246-4550-92c7-af03a22d5b26",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170696/512x512bb.jpg",
       "description": "- Debug Menu +10",
-      "version": "0.4.1",
-      "size": "179.52 MB",
+      "version": "0.4.2",
+      "size": "178.85 MB",
       "bundle": "com.ss.apes.evolve.win",
       "uniqueBundle": "com.ss.apes.evolve.win",
-      "downloads_count": 18,
-      "views": 14,
+      "downloads_count": 22,
+      "views": 15,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179715/fb20442d97fe23a7e977a22c5dcd6fb8.ipa?ref=YjdRdUpwNy9rWG52NzR5LzFJQjgveXlqYjdwR2xqL1NmZGtsZmxkNVlNUXoydVVFSG9zZlpKOWthQ3E4akh1SThpSWZVV1FDRDRoZWcvT2RBS2kralJic3VPWmhsdFZSVXBpaXNWa25ORzA3UVdoNTk0Z1VlTFN6bUswWm5aSlQ3c2l0cE5sUHFKSHk0a2RFKzRpTGpwRDRCU25JQVpURXZYS1d5Tlk5QzBHQmZVSzBLd2JPVUxTNW5qbndNb2Vp",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179715/fb20442d97fe23a7e977a22c5dcd6fb8.ipa?ref=YjdRdUpwNy9rWG52NzR5LzFJQjgveXlqYjdwR2xqL1NmZGtsZmxkNVlNUXoydVVFSG9zZlpKOWthQ3E4akh1SThpSWZVV1FDRDRoZWcvT2RBS2kralJic3VPWmhsdFZSVXBpaXNWa25ORzA3UVdoNTk0Z1VlTFN6bUswWm5aSlQ3c2l0cE5sUHFKSHk0a2RFKzRpTGpwRDRCU25JQVpURXZYS1d5Tlk5QzBHQmZVSzBLd2JPVUxTNW5qbndNb2Vp"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2f2b948-9246-4550-92c7-af03a22d5b26/download"
@@ -39278,8 +39408,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/176943/b0fe3a524352c1311d66de2f5ff223d8.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyOWtLdG5hRjZZOWNuc0ZDWktrREpEbmNHZFcvTE8rSW5SUlkwYWZCU3d6U0MveVkxeS9kRUsrcVV0TzhlZS8xWXN0RWVJQVdGbjMxWjVuTjluTFZLMjBkNWRjc2JZZmt2d21WTjNtYVNLcDllRHNXOXlEU0xMNFF4U09uSTJXZWFhN29FV0NYR250TXpYY0U2WXpTNFNqUkc3M0N6TmU1dnlKQTZaeE9CSkRQ",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/176943/b0fe3a524352c1311d66de2f5ff223d8.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyOWtLdG5hRjZZOWNuc0ZDWktrREpEbmNHZFcvTE8rSW5SUlkwYWZCU3d6U0MveVkxeS9kRUsrcVV0TzhlZS8xWXN0RWVJQVdGbjMxWjVuTjluTFZLMjBkNWRjc2JZZmt2d21WTjNtYVNLcDllRHNXOXlEU0xMNFF4U09uSTJXZWFhN29FV0NYR250TXpYY0U2WXpTNFNqUkc3M0N6TmU1dnlKQTZaeE9CSkRQ"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a036fef4-c5be-4cf3-bc12-2dac042a8c5a/download"
@@ -39485,8 +39619,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153224/09ad1cd0bde0d01ea87b181418be505b.ipa?ref=Ty94ZjFEL1BJVmo5Zmp2QmZiYjIwWWZIVmlDYlBGbFcwVXFBVmNIOTFmNE1iZzJWdHA2clFITTB1TVMyQWdqN3pvUGNtSFBXbUtEKyt0VnZzbGRyMjJpb0RWd2NGUnh1RURrU0Y2UlU2RjJZaDJHOXcrYnJHNzR3SHNqR05HdHQzS3dnV0t0RE1XYWdHWTRldzB3Vno2bzBxZjZQdUsydGRIZUJWa3pDRFJZeWlIOVdvWGczQ1dVRjVicGZWeDcz",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153224/09ad1cd0bde0d01ea87b181418be505b.ipa?ref=Ty94ZjFEL1BJVmo5Zmp2QmZiYjIwWWZIVmlDYlBGbFcwVXFBVmNIOTFmNE1iZzJWdHA2clFITTB1TVMyQWdqN3pvUGNtSFBXbUtEKyt0VnZzbGRyMjJpb0RWd2NGUnh1RURrU0Y2UlU2RjJZaDJHOXcrYnJHNzR3SHNqR05HdHQzS3dnV0t0RE1XYWdHWTRldzB3Vno2bzBxZjZQdUsydGRIZUJWa3pDRFJZeWlIOVdvWGczQ1dVRjVicGZWeDcz"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a229e36a-98c1-4798-b467-45552d047965/download"
@@ -40074,12 +40212,12 @@
       "link": "https://check0ver.net/en/iapps/a20ff51d-b40a-4ae6-b390-7232ad0465ed",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/150150/512x512bb.jpg",
       "description": "🛒 Enable Fake Purchase\n🚫 No Ads\n\n📝 Note: Activate the hack from the mod menu.",
-      "version": "2.1.4",
-      "size": "272.92 MB",
+      "version": "2.2.0",
+      "size": "210.45 MB",
       "bundle": "com.regulusstudio.familytree",
       "uniqueBundle": "com.regulusstudio.familytree",
-      "downloads_count": 29,
-      "views": 21,
+      "downloads_count": 32,
+      "views": 22,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -41233,8 +41371,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155316/2b9e00460a4871aa88ae6ee5369909b1.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMDBKbUltZEJsT2pmRmpST3R6UGk4MWJHRXorM2JpOTlNZy9xblpTVWRCcWpoUWVQdjJDTysvU2NFeE1sb0Y2OUZuZzBNRHdBVXFhajRqWTNhRDA1R2pPY2JCNjRrQkxUcm43VndaKzRGY1pRdlRYV1hCTnUrSzFsYVAxckMwVHhXZ20zbjB0dFZ6YnFJSHlMTGlFVzlZY0NLVllibHBpZ0xubUpad1EvRnpo",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155316/2b9e00460a4871aa88ae6ee5369909b1.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMDBKbUltZEJsT2pmRmpST3R6UGk4MWJHRXorM2JpOTlNZy9xblpTVWRCcWpoUWVQdjJDTysvU2NFeE1sb0Y2OUZuZzBNRHdBVXFhajRqWTNhRDA1R2pPY2JCNjRrQkxUcm43VndaKzRGY1pRdlRYV1hCTnUrSzFsYVAxckMwVHhXZ20zbjB0dFZ6YnFJSHlMTGlFVzlZY0NLVllibHBpZ0xubUpad1EvRnpo"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a24382d1-ea94-43b6-b909-88ae0f9a6d42/download"
@@ -41279,8 +41421,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179350/571092e3045f2523e7eb4c0a35b8f624.ipa?ref=WVViMHovNXF0TW4wRlBRTHZ6MzRTbWJVM2FUanFKb2VUQ0F3RkJWWkp6KzJkSzUrcmVTL3VrYXNubS9GVmJhNThKK0w0NVA4NDNxcHN3amNPUjVqc0VNLzV3VVM0M3JLeE12M3hqeDNYdHhtTElBaG5DbWdNZmlxbm9OQXdJK0M0YnV1WlNEdEw2WEMzZTZSYmpwL25FbVFMQk43dWxCUjlKRmk1Z25rWDdTdFpMdmlqWk9mL1B2OGRNaHFRUjkr",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179350/571092e3045f2523e7eb4c0a35b8f624.ipa?ref=WVViMHovNXF0TW4wRlBRTHZ6MzRTbWJVM2FUanFKb2VUQ0F3RkJWWkp6KzJkSzUrcmVTL3VrYXNubS9GVmJhNThKK0w0NVA4NDNxcHN3amNPUjVqc0VNLzV3VVM0M3JLeE12M3hqeDNYdHhtTElBaG5DbWdNZmlxbm9OQXdJK0M0YnV1WlNEdEw2WEMzZTZSYmpwL25FbVFMQk43dWxCUjlKRmk1Z25rWDdTdFpMdmlqWk9mL1B2OGRNaHFRUjkr"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9d3e60e5-129e-4f5b-9648-96d0f1f93d24/download"
@@ -41297,8 +41443,8 @@
       "size": "503.88 MB",
       "bundle": "fieldrunners2.ipad",
       "uniqueBundle": "fieldrunners2.ipad",
-      "downloads_count": 3,
-      "views": 1,
+      "downloads_count": 5,
+      "views": 2,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -41624,8 +41770,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155319/7e86c0f533e22b1fedb1edfa2fd36cd9.ipa?ref=N3ZOUUNubUg3SzRKNjVucm5FZmVUUXhxNUExQStLWkUreVg1VGt0dVZ3UFp3TjNqYzFCRG5QRXVFZXJkSU5nY25wQld4bWszVGZYQk40ai9QdytXNHN4ZHhaT3hrYmFYSFg2QTRtWk8yOUxMVEM2cUlPcmU4MFpzMG1qVjJydDI1WDBtaEl1Y3hFRUlPaElyVnpaSVd0dEdhVDJsS2k3VnFaRyszR21sV0g2dVBUVmFPeDNKUVVTOTVxUHV1NFdt",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155319/7e86c0f533e22b1fedb1edfa2fd36cd9.ipa?ref=N3ZOUUNubUg3SzRKNjVucm5FZmVUUXhxNUExQStLWkUreVg1VGt0dVZ3UFp3TjNqYzFCRG5QRXVFZXJkSU5nY25wQld4bWszVGZYQk40ai9QdytXNHN4ZHhaT3hrYmFYSFg2QTRtWk8yOUxMVEM2cUlPcmU4MFpzMG1qVjJydDI1WDBtaEl1Y3hFRUlPaElyVnpaSVd0dEdhVDJsS2k3VnFaRyszR21sV0g2dVBUVmFPeDNKUVVTOTVxUHV1NFdt"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2438375-b90b-4850-8732-1c92f1f60b74/download"
@@ -41693,8 +41843,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155313/0f50a40ddb98f9925df0af2cb571fea0.ipa?ref=SGdwdGU1V2pnYTcwR0FKdExaYSs1d0ZqZEd3Rjk5OHVDMW01aXQ4eGVHMFU0YzFLVnJNYW9mK2g2YXFLWkh1a00vQzRpUEhkR3l6eG5pSUNyWWRtcjM1c3hEam43dXBTYVoySEtwNXlHSXVTa1pORDVjWndJZUhCWXQyV2U4Y2gvQ0h2TFl1KzE5YU05Rk1TcFNxcTZZTks3SndhUnhXRDFVcHBCNXBsQ0FCanQ3Nm0wSnQ3NXhLenJZTW5XbFhk",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155313/0f50a40ddb98f9925df0af2cb571fea0.ipa?ref=SGdwdGU1V2pnYTcwR0FKdExaYSs1d0ZqZEd3Rjk5OHVDMW01aXQ4eGVHMFU0YzFLVnJNYW9mK2g2YXFLWkh1a00vQzRpUEhkR3l6eG5pSUNyWWRtcjM1c3hEam43dXBTYVoySEtwNXlHSXVTa1pORDVjWndJZUhCWXQyV2U4Y2gvQ0h2TFl1KzE5YU05Rk1TcFNxcTZZTks3SndhUnhXRDFVcHBCNXBsQ0FCanQ3Nm0wSnQ3NXhLenJZTW5XbFhk"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a243823e-d0dd-4ddc-9074-03058102fbce/download"
@@ -42286,7 +42440,7 @@
       "size": "167.61 MB",
       "bundle": "com.tensquaregames.letsfish2",
       "uniqueBundle": "com.tensquaregames.letsfish2",
-      "downloads_count": 560,
+      "downloads_count": 710,
       "views": 88,
       "isFree": false,
       "hasAddonFiles": false,
@@ -43441,8 +43595,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178680/984dbc1d61cfbccfab569c5e9f35e8c0.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emVHaWVCRjJBYlVPVWxIY2w4bjIvS1NXdHZON2xVMzdrRnFvR0YzaVE1OUlLQjJMUDl3ajgwcWxXaytqRVBPQ1lzMFhmaHB6alNzUzBLQ3o3SEhIVS9l",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178680/984dbc1d61cfbccfab569c5e9f35e8c0.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emVHaWVCRjJBYlVPVWxIY2w4bjIvS1NXdHZON2xVMzdrRnFvR0YzaVE1OUlLQjJMUDl3ajgwcWxXaytqRVBPQ1lzMFhmaHB6alNzUzBLQ3o3SEhIVS9l"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33f265a-4e13-4500-b83e-776de7c34706/download"
@@ -44145,17 +44303,21 @@
       "link": "https://check0ver.net/en/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171135/512x512bb.jpg",
       "description": "- Money Modifier → earn currency freely\n- Token Modifier → earn tokens freely\n- Unlock All Maps → access every track immediately\n- No Ads → uninterrupted racing",
-      "version": "1.0.7",
-      "size": "314.88 MB",
+      "version": "1.1.2",
+      "size": "416.39 MB",
       "bundle": "com.sevenseas.formularide",
       "uniqueBundle": "com.sevenseas.formularide",
-      "downloads_count": 252,
+      "downloads_count": 254,
       "views": 9,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179729/5b20cc1c9c0f5ee3b7168c19bd4f2354.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzb3lhMkhibjVUYjh5RUtENEpHNzk1S1NmQmlZZnR4eWJkSFZtTFFldE1OdEdWek9vc3VPSVQ1Mng1RndrRWJqdGhqcnBra3o0NEZxdGlpb0lZYWsxeXJXZVRmaU42ZGRwak9KWE9BNUdFNms4YlBwNk9pb0c0MU1QaVNtOTZZUDZ4N3EzM3BWNXpvTXlhRzZlL29tSW5WTStCdUN1b1FXLy96U084QjlLeHNo",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179729/5b20cc1c9c0f5ee3b7168c19bd4f2354.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzb3lhMkhibjVUYjh5RUtENEpHNzk1S1NmQmlZZnR4eWJkSFZtTFFldE1OdEdWek9vc3VPSVQ1Mng1RndrRWJqdGhqcnBra3o0NEZxdGlpb0lZYWsxeXJXZVRmaU42ZGRwak9KWE9BNUdFNms4YlBwNk9pb0c0MU1QaVNtOTZZUDZ4N3EzM3BWNXpvTXlhRzZlL29tSW5WTStCdUN1b1FXLy96U084QjlLeHNo"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2f7addd-de37-46ea-98ef-0408f2f06975/download"
@@ -44784,6 +44946,29 @@
       ]
     },
     {
+      "uuid": "a346c711-6cf6-4fdb-a082-44c67ea8d84c",
+      "name": "Fresh Today: Cozy Supermarket",
+      "link": "https://check0ver.net/en/iapps/a346c711-6cf6-4fdb-a082-44c67ea8d84c",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179660/512x512bb.jpg",
+      "description": "- Free iAP → unlock all in-app purchases at no cost",
+      "version": "1.4",
+      "size": "143.88 MB",
+      "bundle": "com.beekgames.freshtoday",
+      "uniqueBundle": "com.beekgames.freshtoday",
+      "downloads_count": 2,
+      "views": 0,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "Games",
+      "downloadURL": null,
+      "downloads": [
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a346c711-6cf6-4fdb-a082-44c67ea8d84c/download"
+        }
+      ]
+    },
+    {
       "uuid": "9f5d629e-bc94-4cf5-ba51-4c22facbebf0",
       "name": "Fridge Sort!",
       "link": "https://check0ver.net/en/iapps/9f5d629e-bc94-4cf5-ba51-4c22facbebf0",
@@ -44954,7 +45139,7 @@
       "size": "559.18 MB",
       "bundle": "com.winter.breaker",
       "uniqueBundle": "com.winter.breaker",
-      "downloads_count": 233,
+      "downloads_count": 234,
       "views": 23,
       "isFree": false,
       "hasAddonFiles": false,
@@ -45502,11 +45687,11 @@
       "link": "https://check0ver.net/en/iapps/a28aba22-723b-433e-b4d2-dcc27ff15833",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/161150/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your tower and skill output\n- Defence Multiplier → strengthen your defensive capabilities\n- Never Die → become invulnerable to enemy attacks",
-      "version": "1.0.15",
-      "size": "176.46 MB",
+      "version": "1.0.16",
+      "size": "182.08 MB",
       "bundle": "com.cookapps.towerroguedefense",
       "uniqueBundle": "com.cookapps.towerroguedefense",
-      "downloads_count": 57,
+      "downloads_count": 60,
       "views": 47,
       "isFree": false,
       "hasAddonFiles": false,
@@ -45594,12 +45779,12 @@
       "link": "https://check0ver.net/en/iapps/9c6b8208-c269-41f8-9c52-4433f19ae233",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117198/512x512bb.jpg",
       "description": "- 1 Hit Kill\n- Never Die\n- Instant Kill",
-      "version": "2.034",
-      "size": "269.29 MB",
+      "version": "2.036",
+      "size": "269.45 MB",
       "bundle": "com.game.space.shooter2",
       "uniqueBundle": "com.game.space.shooter2",
-      "downloads_count": 744,
-      "views": 289,
+      "downloads_count": 751,
+      "views": 291,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -47940,11 +48125,11 @@
       "link": "https://check0ver.net/en/iapps/a1fda3e1-cb8b-46a4-8748-eed0b0c635ce",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/146658/512x512bb.jpg",
       "description": "- Freeze Coin\n- Infinite Cash\n- Skip Ads",
-      "version": "6.10.1",
-      "size": "106.69 MB",
+      "version": "6.11.0",
+      "size": "109.85 MB",
       "bundle": "com.holoboo.GolfTycoon",
       "uniqueBundle": "com.holoboo.GolfTycoon",
-      "downloads_count": 38,
+      "downloads_count": 42,
       "views": 25,
       "isFree": false,
       "hasAddonFiles": false,
@@ -48128,7 +48313,7 @@
       "size": "380.87 MB",
       "bundle": "com.tapblaze.pizzabusiness",
       "uniqueBundle": "com.tapblaze.pizzabusiness",
-      "downloads_count": 1683,
+      "downloads_count": 1868,
       "views": 188,
       "isFree": false,
       "hasAddonFiles": false,
@@ -48542,7 +48727,7 @@
       "size": "1.84 GB",
       "bundle": "com.rockstargames.gta3sa",
       "uniqueBundle": "com.rockstargames.gta3sa",
-      "downloads_count": 3662,
+      "downloads_count": 3663,
       "views": 222,
       "isFree": false,
       "hasAddonFiles": false,
@@ -51767,8 +51952,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178961/f75db6ea32f3b919bddd2691cf93508c.ipa?ref=angzb1c5NlRURWJTOGNaSXNqZE55MWRRWHd5RmU3K21NQ0RaTUNjYnU0ZFpETDA5dFJUYVRXQ3V1TWZwNTNMb2ZUNWJZMmZnbkpreGNtMVFPbFBKckFDMksyT3RsR3JLN1J6ZUhJM244aFR1Q3NUYWxqcTMrSjFxMnB6YzZydFJXc2dFTEI0dnNjajZSc2RVTm5iL1JNSVAxWDQ4empwR0hlaVlXL09ueUhCQWIzeUI4UVJ4bHV3eFBkclhTRGNl",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178961/f75db6ea32f3b919bddd2691cf93508c.ipa?ref=angzb1c5NlRURWJTOGNaSXNqZE55MWRRWHd5RmU3K21NQ0RaTUNjYnU0ZFpETDA5dFJUYVRXQ3V1TWZwNTNMb2ZUNWJZMmZnbkpreGNtMVFPbFBKckFDMksyT3RsR3JLN1J6ZUhJM244aFR1Q3NUYWxqcTMrSjFxMnB6YzZydFJXc2dFTEI0dnNjajZSc2RVTm5iL1JNSVAxWDQ4empwR0hlaVlXL09ueUhCQWIzeUI4UVJ4bHV3eFBkclhTRGNl"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a341c780-80b0-4164-a977-20bc4263ce9a/download"
@@ -51969,7 +52158,7 @@
       "size": "241.48 MB",
       "bundle": "com.dnddream.headsoccer",
       "uniqueBundle": "com.dnddream.headsoccer",
-      "downloads_count": 144,
+      "downloads_count": 145,
       "views": 39,
       "isFree": false,
       "hasAddonFiles": false,
@@ -52705,7 +52894,7 @@
       "size": "102.72 MB",
       "bundle": "ca.lbcstudios.hempire",
       "uniqueBundle": "ca.lbcstudios.hempire",
-      "downloads_count": 358,
+      "downloads_count": 446,
       "views": 70,
       "isFree": false,
       "hasAddonFiles": false,
@@ -54684,7 +54873,7 @@
       "bundle": "com.madboxgames.drifter",
       "uniqueBundle": "com.madboxgames.drifter",
       "downloads_count": 940,
-      "views": 194,
+      "views": 195,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -55212,7 +55401,7 @@
       "size": "602.31 MB",
       "bundle": "com.squareenixmontreal.hitmansniper",
       "uniqueBundle": "com.squareenixmontreal.hitmansniper",
-      "downloads_count": 1145,
+      "downloads_count": 1146,
       "views": 258,
       "isFree": false,
       "hasAddonFiles": false,
@@ -55369,12 +55558,12 @@
       "link": "https://check0ver.net/en/iapps/a0c36f12-6a66-4959-83bb-7abb40cf2079",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/125038/512x512bb.jpg",
       "description": "🛒 Enable Fake Purchase\r\n🚫 No Ads\r\n\r\n📝 Note: Activate the hack from the mod menu.",
-      "version": "2.18.1",
-      "size": "551.01 MB",
+      "version": "2.19.0",
+      "size": "551.29 MB",
       "bundle": "com.brainworks.holeemall",
       "uniqueBundle": "com.brainworks.holeemall",
-      "downloads_count": 301,
-      "views": 16,
+      "downloads_count": 305,
+      "views": 17,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -55622,11 +55811,11 @@
       "link": "https://check0ver.net/en/iapps/a2f75e2d-6141-4793-92c0-1c381511657d",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/171118/512x512bb.jpg",
       "description": "- Unlimited Money\n- Unlimited Energy\n- Max Reputation",
-      "version": "2.1.0",
-      "size": "19.61 MB",
+      "version": "2.1.2",
+      "size": "19.6 MB",
       "bundle": "com.titorama.hollywoodtalenttycoon",
       "uniqueBundle": "com.titorama.hollywoodtalenttycoon",
-      "downloads_count": 21,
+      "downloads_count": 24,
       "views": 14,
       "isFree": false,
       "hasAddonFiles": false,
@@ -56068,8 +56257,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178939/d40bf47fb3412843b4d277e63b0edbd9.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYlluUDV0QkJtOVYyQ3hrTUlMZllRbUh1bStEb0FOR2pweFZ6MDdtemQ3MWgwcGRBN2J3N2REYWI2b3o5OTFreGxSc0t0VnFYL0VBNXRZWmVkWTRUUUhv",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178939/d40bf47fb3412843b4d277e63b0edbd9.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYlluUDV0QkJtOVYyQ3hrTUlMZllRbUh1bStEb0FOR2pweFZ6MDdtemQ3MWgwcGRBN2J3N2REYWI2b3o5OTFreGxSc0t0VnFYL0VBNXRZWmVkWTRUUUhv"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a341b23e-fc48-42a6-9410-76cc76ede96b/download"
@@ -56083,7 +56276,7 @@
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114873/512x512bb.jpg",
       "description": "Are you ready to become a fishing legend? Dominate the sea, show off your boat, and catch the big fish. Join us to experience the #1 mobile fishing game of 2018 and 2019.\n\n- Free Store (Buy and Cancel)",
       "version": "3.3.3",
-      "size": "111.19 MB",
+      "size": "115.28 MB",
       "bundle": "com.lionstudios.hookedinc",
       "uniqueBundle": "com.lionstudios.hookedinc",
       "downloads_count": 243,
@@ -57172,8 +57365,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178912/4a14b8ca8e99dbf31c3092134038d9e4.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emNMbEdYaVpycGJMUmo0TFVucEVhMjFtQlJKVStVdXg0TjhBZ0lxb2FkYU05aWlGN3k4Z004dS9pTUR4WDRmeUU1bkhOZ3ByRWRCR1ZZelErZEgwVzFT",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178912/4a14b8ca8e99dbf31c3092134038d9e4.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emNMbEdYaVpycGJMUmo0TFVucEVhMjFtQlJKVStVdXg0TjhBZ0lxb2FkYU05aWlGN3k4Z004dS9pTUR4WDRmeUU1bkhOZ3ByRWRCR1ZZelErZEgwVzFT"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a34186e0-d42c-4932-9bae-17f2eaafb832/download"
@@ -57287,8 +57484,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155323/358a4204c6db3439906850919c94b0a0.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzZ1p3ZStFblgzOXBDTC9tbUs5cHdENUYrd3cvb0ZpdFNXNjFNOGtYUTM4R2d6WXIrdDdmdUtUTWlwTk1mZWhwbW1HU01hcWVkL1VxczI4Wlc2WkxJMThYUGF6cTM4Skp0WEhNa0ovb3B1a3JQLzU0bEtRcDJUemNycVVjUTdkTit5elRza21qR2NjSHlUNnJSQTdsK1pOZWNoNGMzbnhIS2hKMWY3V1kra0pw",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/155323/358a4204c6db3439906850919c94b0a0.ipa?ref=cEhaMlBSeWQvbGZmYURVK0RzTEtzZ1p3ZStFblgzOXBDTC9tbUs5cHdENUYrd3cvb0ZpdFNXNjFNOGtYUTM4R2d6WXIrdDdmdUtUTWlwTk1mZWhwbW1HU01hcWVkL1VxczI4Wlc2WkxJMThYUGF6cTM4Skp0WEhNa0ovb3B1a3JQLzU0bEtRcDJUemNycVVjUTdkTit5elRza21qR2NjSHlUNnJSQTdsK1pOZWNoNGMzbnhIS2hKMWY3V1kra0pw"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2438550-a71d-44c2-afca-35123873ba1b/download"
@@ -58589,11 +58790,11 @@
       "link": "https://check0ver.net/en/iapps/9e5adea2-a3be-46a3-b7b2-717c57d5829a",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/114906/512x512bb.jpg",
       "description": "- Infinite Diamond",
-      "version": "3.49.1",
-      "size": "130.36 MB",
+      "version": "3.50.1",
+      "size": "130.84 MB",
       "bundle": "com.kanoapps.bz",
       "uniqueBundle": "com.kanoapps.bz",
-      "downloads_count": 165,
+      "downloads_count": 167,
       "views": 61,
       "isFree": false,
       "hasAddonFiles": false,
@@ -60594,7 +60795,7 @@
       "size": "79.97 MB",
       "bundle": "truck.tycoon.pixelcity",
       "uniqueBundle": "truck.tycoon.pixelcity",
-      "downloads_count": 2,
+      "downloads_count": 3,
       "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
@@ -61611,8 +61812,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178853/2e87e5fc6f72caa25d7e9bede248a34c.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNTaHY3Q3NsSFgrNDIvMmxxM2g0U1dZMm01QTNMZ3JiOGJxcjZzcmRhTkcwWWp4WUI1bktNTnVzc3JCMWhMdkpuNmtMVThRdnhUYTJwS0pLSEI5TkNj",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178853/2e87e5fc6f72caa25d7e9bede248a34c.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNTaHY3Q3NsSFgrNDIvMmxxM2g0U1dZMm01QTNMZ3JiOGJxcjZzcmRhTkcwWWp4WUI1bktNTnVzc3JCMWhMdkpuNmtMVThRdnhUYTJwS0pLSEI5TkNj"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a34149d1-0163-4cbd-a5ac-335e39024ea6/download"
@@ -62407,17 +62612,21 @@
       "link": "https://check0ver.net/en/iapps/a2921d01-6c51-444c-9de1-65b58c462a50",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/161748/512x512bb.jpg",
       "description": "- Unlimited Currency → spend freely on upgrades and unlocks\n- Unlimited Resources → craft and upgrade without limits\n\nNote: Chest Open All OFF When Use",
-      "version": "1.3.5",
-      "size": "208.02 MB",
+      "version": "1.4.0",
+      "size": "179.88 MB",
       "bundle": "com.diggiverse.jellyclicker",
       "uniqueBundle": "com.diggiverse.jellyclicker",
-      "downloads_count": 32,
-      "views": 22,
+      "downloads_count": 35,
+      "views": 23,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179700/fb314e1f062151370db50492d0e9c418.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOHZtVkorakNhcTM1MTBHVDJkR3VWWHZXMS8rSEVyMW9kcUJDdHFsVkg1M0RRZkkrMjBnTFdhb0g2OE5STHMrTjBjRXpVT01PUW05dVhTMk14QUg0Mi9QYUtLMXBTbkd6aGpDanByTHJDaTN3M3JVMFpZeisyQXQ5Q2xHZFdianpRZllWSFZSNWFUdTFGNUU4RWZ1L21lYVNsRUIza0xQVllCOWpFYXNmRisz",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179700/fb314e1f062151370db50492d0e9c418.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOHZtVkorakNhcTM1MTBHVDJkR3VWWHZXMS8rSEVyMW9kcUJDdHFsVkg1M0RRZkkrMjBnTFdhb0g2OE5STHMrTjBjRXpVT01PUW05dVhTMk14QUg0Mi9QYUtLMXBTbkd6aGpDanByTHJDaTN3M3JVMFpZeisyQXQ5Q2xHZFdianpRZllWSFZSNWFUdTFGNUU4RWZ1L21lYVNsRUIza0xQVllCOWpFYXNmRisz"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2921d01-6c51-444c-9de1-65b58c462a50/download"
@@ -62641,7 +62850,7 @@
       "size": "531.78 MB",
       "bundle": "com.halfbrick.jetpackjoyride2",
       "uniqueBundle": "com.halfbrick.jetpackjoyride2",
-      "downloads_count": 329,
+      "downloads_count": 502,
       "views": 13,
       "isFree": false,
       "hasAddonFiles": false,
@@ -64067,7 +64276,7 @@
       "size": "224.2 MB",
       "bundle": "com.chillfleet.buddy",
       "uniqueBundle": "com.chillfleet.buddy",
-      "downloads_count": 4647,
+      "downloads_count": 4648,
       "views": 64,
       "isFree": false,
       "hasAddonFiles": false,
@@ -64803,8 +65012,8 @@
       "size": "712.22 MB",
       "bundle": "azurgames.kingdom.clash",
       "uniqueBundle": "azurgames.kingdom.clash",
-      "downloads_count": 287,
-      "views": 72,
+      "downloads_count": 289,
+      "views": 73,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -64992,8 +65201,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153230/79ddf4911b364e2525b196ca9d152447.ipa?ref=Ty9IRjc4N2s3RUxJbmhkYWxwQUVtbGJXK1gwY1Y0Z1hrMHZQTm5yMWpoUDEzUjZmSnMwUENzMUQrNENjQm1BQzhWdHFrTC8xYTltZmxjRkxzYUF3YVNCdnI5cUZuSlQrdmlCblNsZFczWjBkQS9ibDkyeHlOVnVvV01tTU5YQ3hTd25MbUczb0hRalIyeHdSOGR6MHN6bmFOMTVWMGZ4cU15T2VLUWhYMWxyajdZRERsc1JGWVBQTTlSRGd1amdR",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153230/79ddf4911b364e2525b196ca9d152447.ipa?ref=Ty9IRjc4N2s3RUxJbmhkYWxwQUVtbGJXK1gwY1Y0Z1hrMHZQTm5yMWpoUDEzUjZmSnMwUENzMUQrNENjQm1BQzhWdHFrTC8xYTltZmxjRkxzYUF3YVNCdnI5cUZuSlQrdmlCblNsZFczWjBkQS9ibDkyeHlOVnVvV01tTU5YQ3hTd25MbUczb0hRalIyeHdSOGR6MHN6bmFOMTVWMGZ4cU15T2VLUWhYMWxyajdZRERsc1JGWVBQTTlSRGd1amdR"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a229e542-1da3-415b-8dd8-ea1c26450bac/download"
@@ -65130,8 +65343,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153227/9c9c4b1c86be7c074ae0454e410816f3.ipa?ref=R3B0cXcwSzY3cm9RNmNkZHdTcnYzRTJFNjFjMGVSVWtVcDVTQUdTM0R5dFo2V0pGZzRkbU9RUVAzcGpobEp3SldaenBhM0lnd3RKZVBpRm9CcHY1cEp0RjRwM2Y5ZHRZdVJJbU1nSjlZRW8yaDZGZUcycE41U1FuekowVWl1NURYRkt3K3FCU2dnaXlxYmE5Vktac2VWMWQ4NUFhVGpSY1pPa3FtQXRNUHI0WW9RZGx4eVA0S2pGR1NXZ2JneGR2",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153227/9c9c4b1c86be7c074ae0454e410816f3.ipa?ref=R3B0cXcwSzY3cm9RNmNkZHdTcnYzRTJFNjFjMGVSVWtVcDVTQUdTM0R5dFo2V0pGZzRkbU9RUVAzcGpobEp3SldaenBhM0lnd3RKZVBpRm9CcHY1cEp0RjRwM2Y5ZHRZdVJJbU1nSjlZRW8yaDZGZUcycE41U1FuekowVWl1NURYRkt3K3FCU2dnaXlxYmE5Vktac2VWMWQ4NUFhVGpSY1pPa3FtQXRNUHI0WW9RZGx4eVA0S2pGR1NXZ2JneGR2"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a229e440-79a0-48f9-b437-2210f33dee63/download"
@@ -65245,8 +65462,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153234/50574923e2dadd3c0539302815a11ab4.ipa?ref=aTdKNmRTcFlRNlUwMVl6ODBvYzVpK2kwK1EwZGgxclJrTmV2SUowYktnK2RIYXRiZnV6R0ZzZXYyc3k5dUcyeklsVVcxdW9VbmExTVlqTzZRY1o5VEhqeStRWFE2MCtwdkFXeFdZS3ZWbWhlYUIyMWlodEI0dFUrSzk4aUJVOWtmQlhBOWtteWU2RHM2TVVFOTJ4L3YzMzB3WTRYZHJ1cXY4MmV5YzBqMXFweUZXWHBYRHE4Nml3SUl1a3UxUkxx",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153234/50574923e2dadd3c0539302815a11ab4.ipa?ref=aTdKNmRTcFlRNlUwMVl6ODBvYzVpK2kwK1EwZGgxclJrTmV2SUowYktnK2RIYXRiZnV6R0ZzZXYyc3k5dUcyeklsVVcxdW9VbmExTVlqTzZRY1o5VEhqeStRWFE2MCtwdkFXeFdZS3ZWbWhlYUIyMWlodEI0dFUrSzk4aUJVOWtmQlhBOWtteWU2RHM2TVVFOTJ4L3YzMzB3WTRYZHJ1cXY4MmV5YzBqMXFweUZXWHBYRHE4Nml3SUl1a3UxUkxx"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a229e73d-7128-4691-9deb-e175b1901a9f/download"
@@ -67002,6 +67223,33 @@
       ]
     },
     {
+      "uuid": "a3460787-bef3-43cb-b714-5b4efe26365f",
+      "name": "Last Night of Winter",
+      "link": "https://check0ver.net/en/iapps/a3460787-bef3-43cb-b714-5b4efe26365f",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179585/98afa9cd-05af-47cb-970b-91020c86892d.png",
+      "description": "Nintendo Switch game\r\n\r\nWorks on iPhone 16 and later models\r\nRequires version 26 or higher",
+      "version": "1.0.1",
+      "size": "161.12 MB",
+      "bundle": "org.nxnative.0100d1e019c72000",
+      "uniqueBundle": "org.nxnative.0100d1e019c72000",
+      "downloads_count": 2,
+      "views": 0,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "العاب نيتندو سويتش",
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179586/7112a7d7f40885f7ef9d1d4fc1463413.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNrYnE0OE5UWWtZRTI5MWlnWE04aXNQdk95MVVQREQwcHJ1SW5TOWU3S3RrUTdYSENSYUdTcjM4dEUyWUtJWXp4T1U5bFg4MlJ0U2FYQnhHbSthVEd2",
+      "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179586/7112a7d7f40885f7ef9d1d4fc1463413.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNrYnE0OE5UWWtZRTI5MWlnWE04aXNQdk95MVVQREQwcHJ1SW5TOWU3S3RrUTdYSENSYUdTcjM4dEUyWUtJWXp4T1U5bFg4MlJ0U2FYQnhHbSthVEd2"
+        },
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a3460787-bef3-43cb-b714-5b4efe26365f/download"
+        }
+      ]
+    },
+    {
       "uuid": "a3389632-8b43-4f0d-ad03-70203b887a74",
       "name": "Last Raiders",
       "link": "https://check0ver.net/en/iapps/a3389632-8b43-4f0d-ad03-70203b887a74",
@@ -67057,7 +67305,7 @@
       "size": "157.62 MB",
       "bundle": "com.lastwar.survival.zombie.battle",
       "uniqueBundle": "com.lastwar.survival.zombie.battle",
-      "downloads_count": 45,
+      "downloads_count": 47,
       "views": 9,
       "isFree": false,
       "hasAddonFiles": false,
@@ -67237,17 +67485,21 @@
       "link": "https://check0ver.net/en/iapps/a338811d-b191-4f71-87b0-b86be0a0892e",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/177984/512x512bb.jpg",
       "description": "- Never Die → survive all enemy attacks\n- Max Damage → deal maximum harm to all foes",
-      "version": "1.4.7",
-      "size": "179.47 MB",
+      "version": "1.4.8",
+      "size": "179.55 MB",
       "bundle": "com.FreeDust.LastCampDefense2",
       "uniqueBundle": "com.FreeDust.LastCampDefense2",
-      "downloads_count": 5,
-      "views": 3,
+      "downloads_count": 8,
+      "views": 4,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179722/a693f0fcc73f231b51e5707d025779bb.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOC9FZGE4T1F0N0s3UGRoZndETlE3TmdOd1VabHdvNEppY25WZjF3eHZOcVNSMVlzallLdEJMOWJYQlM5Z2xlOStuMDgvWHdCYTU2Wk54WmdCVldoT2xVNTQrbzcrQjdxTFhpaWs2VUlHZE5xbUkva2lBb21wcExtTGNvM1M2enArejI5dzQ3SVA5bnp1MDJZVFl3SnF4R3VnUm9NYzlVc3V3aDE3dzk0eWhE",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179722/a693f0fcc73f231b51e5707d025779bb.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOC9FZGE4T1F0N0s3UGRoZndETlE3TmdOd1VabHdvNEppY25WZjF3eHZOcVNSMVlzallLdEJMOWJYQlM5Z2xlOStuMDgvWHdCYTU2Wk54WmdCVldoT2xVNTQrbzcrQjdxTFhpaWs2VUlHZE5xbUkva2lBb21wcExtTGNvM1M2enArejI5dzQ3SVA5bnp1MDJZVFl3SnF4R3VnUm9NYzlVc3V3aDE3dzk0eWhE"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a338811d-b191-4f71-87b0-b86be0a0892e/download"
@@ -70439,7 +70691,7 @@
       "bundle": "com.fuseboxgames.loveisland2",
       "uniqueBundle": "com.fuseboxgames.loveisland2",
       "downloads_count": 112,
-      "views": 21,
+      "views": 22,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -70714,7 +70966,7 @@
       "size": "142.48 MB",
       "bundle": "com.panoramik.lyssa",
       "uniqueBundle": "com.panoramik.lyssa",
-      "downloads_count": 248,
+      "downloads_count": 361,
       "views": 70,
       "isFree": false,
       "hasAddonFiles": false,
@@ -73525,8 +73777,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152369/b3c89f44d11d3813b34793255832d086.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNrcjlTUWxuMEkxdnZia3p2LzB1UmhWb1grUnZDRy9nS1BmOXJnSGNpWGpHOHhpY1hMaFdDcjJiVWxnd1RTSHhtSGc4Vy9vMTlnc1FDOTg5ZTJVTTFu",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152369/b3c89f44d11d3813b34793255832d086.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNrcjlTUWxuMEkxdnZia3p2LzB1UmhWb1grUnZDRy9nS1BmOXJnSGNpWGpHOHhpY1hMaFdDcjJiVWxnd1RTSHhtSGc4Vy9vMTlnc1FDOTg5ZTJVTTFu"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2212ef0-7113-45ed-9bfa-9b0df6e2fe10/download"
@@ -74463,8 +74719,8 @@
       "size": "325.61 MB",
       "bundle": "com.pantherandleopard.knightsvsmonsters",
       "uniqueBundle": "com.pantherandleopard.knightsvsmonsters",
-      "downloads_count": 117,
-      "views": 20,
+      "downloads_count": 119,
+      "views": 21,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -74762,7 +75018,7 @@
       "size": "129.23 MB",
       "bundle": "com.bigcool.puzzle.merge.city",
       "uniqueBundle": "com.bigcool.puzzle.merge.city",
-      "downloads_count": 24,
+      "downloads_count": 25,
       "views": 15,
       "isFree": false,
       "hasAddonFiles": false,
@@ -75429,7 +75685,7 @@
       "size": "113.02 MB",
       "bundle": "com.superbox.mergemysteryresort",
       "uniqueBundle": "com.superbox.mergemysteryresort",
-      "downloads_count": 4,
+      "downloads_count": 7,
       "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
@@ -76602,13 +76858,17 @@
       "size": "676.13 MB",
       "bundle": "com.mojang.minecraftpe",
       "uniqueBundle": "com.mojang.minecraftpe",
-      "downloads_count": 3268,
+      "downloads_count": 3269,
       "views": 224,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175838/4fa525e99848ec827bd8bca15486fce2.ipa?ref=NXNFejQrdUhaVG9SNVRpMUFQZmI3MTN4ZHhPVC82RGhYL28rS3o1NjRNblpyV0VNbjB1TlJMODZYQmFjMUFVY3g0VTZoQXltY3M1RGVVMlNtcFBKakxiT1dXNTdKQzZta05DKzBYb2ZZUXRkS0JRZStFY0ZxWlhiajBIZXM3eUNQdkpNd0p0elV3RFBFNnhiV3dod0JwUm9vNlNEd2dzRUJMbjlFY3hxUlhUYU0zbEQvNGhxdG1NcC8wUnA0Q0VJ",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175838/4fa525e99848ec827bd8bca15486fce2.ipa?ref=NXNFejQrdUhaVG9SNVRpMUFQZmI3MTN4ZHhPVC82RGhYL28rS3o1NjRNblpyV0VNbjB1TlJMODZYQmFjMUFVY3g0VTZoQXltY3M1RGVVMlNtcFBKakxiT1dXNTdKQzZta05DKzBYb2ZZUXRkS0JRZStFY0ZxWlhiajBIZXM3eUNQdkpNd0p0elV3RFBFNnhiV3dod0JwUm9vNlNEd2dzRUJMbjlFY3hxUlhUYU0zbEQvNGhxdG1NcC8wUnA0Q0VJ"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9e8098f1-c6f4-4845-b2a5-8e3c7ffbcc28/download"
@@ -78185,17 +78445,21 @@
       "link": "https://check0ver.net/en/iapps/a0c520dc-6913-4ad6-89c6-e8236f2f9ecc",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/124438/512x512bb.jpg",
       "description": "- Currencies Don't Decrease",
-      "version": "1.64.1",
-      "size": "136.78 MB",
+      "version": "1.65.5",
+      "size": "137.53 MB",
       "bundle": "monster.country.idle",
       "uniqueBundle": "monster.country.idle",
-      "downloads_count": 76,
-      "views": 30,
+      "downloads_count": 79,
+      "views": 31,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179707/e6606315f38dde7624f712d0f51fb72a.ipa?ref=UkIwKzUzYnBYc2ZjWlJnRGtyYkg5UUl5VEZqTmNZelE2SitYSEV3aVIyRzQ0QnJiOWMzdkYvVFo0aXZGMmJoeE5Rb1VpSi9nSFdVTkVsWEhpWTNRYlN6OHVXZmF5THo4bHZtcVVXTC9WK3BjZTZNOVNSeTV6bGxCU1JvZWJnZjBzTm0wTGhBazlBd21seWJVMXU0QzBJOXd2SEFsVnFMTWF0WnJpSEtKd3RjUWlKNnVvR0pxbjl0Ui9jOUh3eFRq",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179707/e6606315f38dde7624f712d0f51fb72a.ipa?ref=UkIwKzUzYnBYc2ZjWlJnRGtyYkg5UUl5VEZqTmNZelE2SitYSEV3aVIyRzQ0QnJiOWMzdkYvVFo0aXZGMmJoeE5Rb1VpSi9nSFdVTkVsWEhpWTNRYlN6OHVXZmF5THo4bHZtcVVXTC9WK3BjZTZNOVNSeTV6bGxCU1JvZWJnZjBzTm0wTGhBazlBd21seWJVMXU0QzBJOXd2SEFsVnFMTWF0WnJpSEtKd3RjUWlKNnVvR0pxbjl0Ui9jOUh3eFRq"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a0c520dc-6913-4ad6-89c6-e8236f2f9ecc/download"
@@ -78861,8 +79125,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178146/e3f62a753dff207c79e9d27b53dc9404.ipa?ref=Q2hLRVdtc1hGWVBDVkhqYjRaQ3M0TTR3bXBZcjR3ZnpGeVVheXVNVklOMWx1TldNOXdML2RqRHR2RW43bDVuZEdPUGxPaCttZ0VpdzJMQ0MzZVNPY1dYKy9FL3pxNFNMODBHQXI5ZTFkTmZkMzQ4YjAyenVLTDMxdkR0eUt4TG05NWxUazlHODVGK3BudFRJUFYzYnk3NXVhc3ZEbGlvMnU3eFlpODVkZ2xtdGg2WXArMGFFSXkxMi9xS1B1WlBQ",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178146/e3f62a753dff207c79e9d27b53dc9404.ipa?ref=Q2hLRVdtc1hGWVBDVkhqYjRaQ3M0TTR3bXBZcjR3ZnpGeVVheXVNVklOMWx1TldNOXdML2RqRHR2RW43bDVuZEdPUGxPaCttZ0VpdzJMQ0MzZVNPY1dYKy9FL3pxNFNMODBHQXI5ZTFkTmZkMzQ4YjAyenVLTDMxdkR0eUt4TG05NWxUazlHODVGK3BudFRJUFYzYnk3NXVhc3ZEbGlvMnU3eFlpODVkZ2xtdGg2WXArMGFFSXkxMi9xS1B1WlBQ"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a339be23-0f88-4f88-ac1b-4062fe302c19/download"
@@ -78889,6 +79157,33 @@
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a12007f1-e493-4181-88a6-fd38d34a5214/download"
+        }
+      ]
+    },
+    {
+      "uuid": "a34518b5-cf20-4bc7-8762-ad310b4c1762",
+      "name": "Moomin : Midsummer Madness",
+      "link": "https://check0ver.net/en/iapps/a34518b5-cf20-4bc7-8762-ad310b4c1762",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179421/73a5b16b-40c8-494f-873a-f785721a9878.png",
+      "description": "Nintendo Switch game\r\n\r\nWorks on iPhone 16 and above\r\nRequires version 26 or higher",
+      "version": "1.0.1",
+      "size": "1.22 GB",
+      "bundle": "org.nxnative.010009e0263ca000",
+      "uniqueBundle": "org.nxnative.010009e0263ca000",
+      "downloads_count": 3,
+      "views": 1,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "العاب نيتندو سويتش",
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179422/706f866822a6ea35396a5efcf1922e96.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNBZUJBNDBJNklxd20wL0VidVA1dXNzc2l5ZkFLTVVYenZCUko0ekRuN0FHOWdhMEhUVGRndkFRL21VSHM3ZVZjR2hudW1kZGl1OGlTQnVkZ3IvUGF1",
+      "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179422/706f866822a6ea35396a5efcf1922e96.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNBZUJBNDBJNklxd20wL0VidVA1dXNzc2l5ZkFLTVVYenZCUko0ekRuN0FHOWdhMEhUVGRndkFRL21VSHM3ZVZjR2hudW1kZGl1OGlTQnVkZ3IvUGF1"
+        },
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a34518b5-cf20-4bc7-8762-ad310b4c1762/download"
         }
       ]
     },
@@ -80693,7 +80988,7 @@
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/165219/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your goddesses' attack output\n- Defense Multiplier → increase survivability in combat\n- Currencies Multiplier → earn resources faster\n- Reward Multiplier → maximize drops from battles and events\n- No ADS → play uninterrupted\n- Premium → unlock all premium features",
       "version": "1.9.0",
-      "size": "325.04 MB",
+      "size": "324.68 MB",
       "bundle": "com.pigames.mlg",
       "uniqueBundle": "com.pigames.mlg",
       "downloads_count": 15,
@@ -81110,7 +81405,7 @@
       "size": "363.06 MB",
       "bundle": "com.playspare.store",
       "uniqueBundle": "com.playspare.store",
-      "downloads_count": 715,
+      "downloads_count": 895,
       "views": 102,
       "isFree": false,
       "hasAddonFiles": false,
@@ -81751,7 +82046,7 @@
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/172378/512x512bb.jpg",
       "description": "- ViP Active → Unlock premium account status and benefits\n- Add Currency → Boost your in-game funds\n- Add Resources → Gain extra materials for progression",
       "version": "1.1.1",
-      "size": "585.98 MB",
+      "size": "586.04 MB",
       "bundle": "com.pixery.mythicsurvivors",
       "uniqueBundle": "com.pixery.mythicsurvivors",
       "downloads_count": 35,
@@ -81777,7 +82072,7 @@
       "size": "189.04 MB",
       "bundle": "com.allstarunion.myths.ios",
       "uniqueBundle": "com.allstarunion.myths.ios",
-      "downloads_count": 48,
+      "downloads_count": 50,
       "views": 5,
       "isFree": false,
       "hasAddonFiles": false,
@@ -82104,8 +82399,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179402/79764d1e352426c006723e667c040598.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYllFaFFqRHFjcm94MGp0ZGt4cDIxMVo4dzhiQUtMcEw3TGFPaUJtb0FRY2l3VWVHZkZEaXRJRVFWQ09sUDBxL0FyVmU3MEhjTlZQemdPSCszWHVGOWNv",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179402/79764d1e352426c006723e667c040598.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYllFaFFqRHFjcm94MGp0ZGt4cDIxMVo4dzhiQUtMcEw3TGFPaUJtb0FRY2l3VWVHZkZEaXRJRVFWQ09sUDBxL0FyVmU3MEhjTlZQemdPSCszWHVGOWNv"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a34501a1-2c4b-45e7-8138-d166ad9debdb/download"
@@ -82242,8 +82541,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153583/2e824937a56da2909dffeae5096320ee.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4STQwWUlVVzJ5T2dJN080Nm1MYXBGeGwwN1ExdTFBQVRJVWRkNjdyZk9BZ04zZVhsNE9uL1JNZ0wrbWQxS0FiNCtNWmJISFZmM2ZCbno2cHp6RzlleHg4czBxdldBZU1iYi9XTTRyeG1JWTBOZWdXT1ZOQnExUFhvZGhyOTJDenBJbkVGWXV6aXExOU1TbG1IWHh4cHMvbFFOcVRWTGw3SU1lRnZKSEV6bmFQ",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153583/2e824937a56da2909dffeae5096320ee.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4STQwWUlVVzJ5T2dJN080Nm1MYXBGeGwwN1ExdTFBQVRJVWRkNjdyZk9BZ04zZVhsNE9uL1JNZ0wrbWQxS0FiNCtNWmJISFZmM2ZCbno2cHp6RzlleHg4czBxdldBZU1iYi9XTTRyeG1JWTBOZWdXT1ZOQnExUFhvZGhyOTJDenBJbkVGWXV6aXExOU1TbG1IWHh4cHMvbFFOcVRWTGw3SU1lRnZKSEV6bmFQ"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a22d59b4-bd85-4fea-a608-0c62d0f167fc/download"
@@ -82288,8 +82591,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178085/2e130ab9df2ac3260e6a10cd4b4ff5cf.ipa?ref=NjZvZkhOdkVxZzN1US84MEw4dkhtanExZzZXYUYvd1BYMHdOdFEvdkVNSDNTWTRsYnhkVGVodGs4Ym1HWlhBbVJpMXFiZVQ4UVYyYlZ6cXI4cUFjbytObmRjdmZuQndZK2tKU0dEb2lITjRkQVpWN1hnbFpzSWxxZ2xrUFFrTythR3dmK21DTUJObTNWMDFhQ1IwOHdLbktJRlpvSCtEOC9TNEYrZHVjeHl6bnA2aTBaTGNvSGIvMlIyTExxV253",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178085/2e130ab9df2ac3260e6a10cd4b4ff5cf.ipa?ref=NjZvZkhOdkVxZzN1US84MEw4dkhtanExZzZXYUYvd1BYMHdOdFEvdkVNSDNTWTRsYnhkVGVodGs4Ym1HWlhBbVJpMXFiZVQ4UVYyYlZ6cXI4cUFjbytObmRjdmZuQndZK2tKU0dEb2lITjRkQVpWN1hnbFpzSWxxZ2xrUFFrTythR3dmK21DTUJObTNWMDFhQ1IwOHdLbktJRlpvSCtEOC9TNEYrZHVjeHl6bnA2aTBaTGNvSGIvMlIyTExxV253"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a02f3284-361a-4576-8c5b-bf7eb6185ef2/download"
@@ -82638,6 +82945,33 @@
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a1df835b-153f-4344-8930-80bf65582928/download"
+        }
+      ]
+    },
+    {
+      "uuid": "a34584e7-b023-4882-aaa9-2389b6063eb0",
+      "name": "NieR: Automata - The End of YoRHa Edition",
+      "link": "https://check0ver.net/en/iapps/a34584e7-b023-4882-aaa9-2389b6063eb0",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179519/5ec0ed9b-6c38-4682-a200-d1366bd48545.png",
+      "description": "How to play the game:\r\n\r\nAfter opening the game, a prompt to download game files will appear. Tap \"Download\" and wait for the process to complete. Once finished, close the game, reopen it, and start playing.\r\n\r\nCompatible with iPhone 16 and later models; requires version 26 or higher.",
+      "version": "1.0",
+      "size": "91.52 MB",
+      "bundle": "org.nxnative.0100B8E016F76000",
+      "uniqueBundle": "org.nxnative.0100B8E016F76000",
+      "downloads_count": 3,
+      "views": 1,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "العاب نيتندو سويتش",
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179520/cbc32df74f82cd7d82e66cb992f432a5.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYllYN2c0WXIvQk1vTlYxN3lDVVVNejJIay9VODRxd0wzMXRPa3J3TitYayszL1lndENKbGhrNGx0bFRTZU5wMDNmN2N4eVh2UlBUeDNVWTBubElHQ1By",
+      "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179520/cbc32df74f82cd7d82e66cb992f432a5.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYllYN2c0WXIvQk1vTlYxN3lDVVVNejJIay9VODRxd0wzMXRPa3J3TitYayszL1lndENKbGhrNGx0bFRTZU5wMDNmN2N4eVh2UlBUeDNVWTBubElHQ1By"
+        },
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a34584e7-b023-4882-aaa9-2389b6063eb0/download"
         }
       ]
     },
@@ -83663,7 +83997,7 @@
       "size": "268.47 MB",
       "bundle": "com.modlestudio.notalone",
       "uniqueBundle": "com.modlestudio.notalone",
-      "downloads_count": 1,
+      "downloads_count": 2,
       "views": 0,
       "isFree": false,
       "hasAddonFiles": false,
@@ -83866,17 +84200,21 @@
       "link": "https://check0ver.net/en/iapps/9ce3c4c0-6e1f-4278-8fd4-cdb365c318d1",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117405/512x512bb.jpg",
       "description": "- Free store (buy then cancel)",
-      "version": "2.1.0",
-      "size": "98.03 MB",
+      "version": "2.2.0",
+      "size": "98.08 MB",
       "bundle": "com.easybrain.number.puzzle.game",
       "uniqueBundle": "com.easybrain.number.puzzle.game",
-      "downloads_count": 193,
-      "views": 63,
+      "downloads_count": 197,
+      "views": 64,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179717/1b42f5fa6eb86ff83c6dcf4ee4316aed.ipa?ref=YVNrL1ZnLzBZaDNZdmJmZ0luak02cHdkcXhhQk8ySHNWc1lSWExoUUQvWldkMEZ4V3JhbG1sK2JvVytQL1lXanhwSmhaV3ZWSDlKRkpjMjA5cUdpWlBaQzBjdFNOV1JFRkJVWDVMdFlvNVZhWEZuN016SlZYM0g0WHhod1F6SWFXN3R1MmtZQUVtdGhJU09ML08rRGJPaHZmNnljUjBwaXdVYnY1TDg1VFcxMEtDaCs4TGxYeUJnUVdpaEFhdTIr",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179717/1b42f5fa6eb86ff83c6dcf4ee4316aed.ipa?ref=YVNrL1ZnLzBZaDNZdmJmZ0luak02cHdkcXhhQk8ySHNWc1lSWExoUUQvWldkMEZ4V3JhbG1sK2JvVytQL1lXanhwSmhaV3ZWSDlKRkpjMjA5cUdpWlBaQzBjdFNOV1JFRkJVWDVMdFlvNVZhWEZuN016SlZYM0g0WHhod1F6SWFXN3R1MmtZQUVtdGhJU09ML08rRGJPaHZmNnljUjBwaXdVYnY1TDg1VFcxMEtDaCs4TGxYeUJnUVdpaEFhdTIr"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9ce3c4c0-6e1f-4278-8fd4-cdb365c318d1/download"
@@ -84427,8 +84765,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152293/1a47b0a99a83a11092ab3f437ed554ac.ipa?ref=a3R3amx1ZWxYQW5nMVVuS2ZCSTAwbURrL0RlempXa0M0M0VTRkt6eEFHV1FxSFBWU1R6aTJRRlAyN3BEUUFNOEZLZFVoeldRZXNBV081WVh6QmNHd2tvbmUydmNsNFVibFgzYWdVU3poNDFHNnZocjR4R2R0N0hkZDB4R1BjQlpEQ1QwaUFzUVgraXk5MWJwUUFYQWl3aWtUaWNzL0FMU05BTlJQc1puTC9ocjljOENrbFlKS3V4WFc2MVlIVUVLbWFIUWZMU3NsQjdWNDNqd2JOdVN1dz09",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152293/1a47b0a99a83a11092ab3f437ed554ac.ipa?ref=a3R3amx1ZWxYQW5nMVVuS2ZCSTAwbURrL0RlempXa0M0M0VTRkt6eEFHV1FxSFBWU1R6aTJRRlAyN3BEUUFNOEZLZFVoeldRZXNBV081WVh6QmNHd2tvbmUydmNsNFVibFgzYWdVU3poNDFHNnZocjR4R2R0N0hkZDB4R1BjQlpEQ1QwaUFzUVgraXk5MWJwUUFYQWl3aWtUaWNzL0FMU05BTlJQc1puTC9ocjljOENrbFlKS3V4WFc2MVlIVUVLbWFIUWZMU3NsQjdWNDNqd2JOdVN1dz09"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2211c6b-5c74-4d13-97e9-10313deb20ac/download"
@@ -85655,6 +85997,33 @@
       ]
     },
     {
+      "uuid": "a345ad2d-575a-4a9c-9cf0-d3499bfb745e",
+      "name": "Operation Scorpion: Take Down",
+      "link": "https://check0ver.net/en/iapps/a345ad2d-575a-4a9c-9cf0-d3499bfb745e",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179547/b5c2b349-6bf2-4421-a8a2-fb57979dacd4.png",
+      "description": "Nintendo Switch game\r\n\r\nWorks on iPhone 16 and later models\r\nRequires version 26 or higher",
+      "version": "1.0.1",
+      "size": "2 GB",
+      "bundle": "org.nxnative.010074301f654000",
+      "uniqueBundle": "org.nxnative.010074301f654000",
+      "downloads_count": 2,
+      "views": 1,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "العاب نيتندو سويتش",
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179548/262013860dfae02c960414d6eb751efc.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNvTTU3dFRSZVRTek1FdzNYVXpsdXpPMEZncHppdU1ab1dpdWliMm9kR2xPMlpSOTVoUm1ZZVFjWFNyZlhGTXZGM2FDM2gzd0pWSG42cHlRRGNjUVM0",
+      "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179548/262013860dfae02c960414d6eb751efc.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTNvTTU3dFRSZVRTek1FdzNYVXpsdXpPMEZncHppdU1ab1dpdWliMm9kR2xPMlpSOTVoUm1ZZVFjWFNyZlhGTXZGM2FDM2gzd0pWSG42cHlRRGNjUVM0"
+        },
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a345ad2d-575a-4a9c-9cf0-d3499bfb745e/download"
+        }
+      ]
+    },
+    {
       "uuid": "a03b8132-0afc-4da2-9315-472ce0648d2d",
       "name": "Orbital Invaders:Space shooter",
       "link": "https://check0ver.net/en/iapps/a03b8132-0afc-4da2-9315-472ce0648d2d",
@@ -86235,11 +86604,11 @@
       "link": "https://check0ver.net/en/iapps/a280d51e-21ee-4702-b340-6d4a7c4b49a7",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/160450/512x512bb.jpg",
       "description": "- Gold Modifier → earn or spend freely\n- Heart Modifier → earn or spend freely\n- Booster Modifier → earn or spend freely\n- Pre-Booster Modifier → earn or spend freely",
-      "version": "1.5.8",
-      "size": "198.6 MB",
+      "version": "1.5.9",
+      "size": "198.8 MB",
       "bundle": "com.abi.packingdom",
       "uniqueBundle": "com.abi.packingdom",
-      "downloads_count": 56,
+      "downloads_count": 59,
       "views": 30,
       "isFree": false,
       "hasAddonFiles": false,
@@ -88949,12 +89318,12 @@
       "link": "https://check0ver.net/en/iapps/a2b72bbb-2f3b-4cbf-bac1-652adf43e4e9",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/165129/512x512bb.jpg",
       "description": "- Unit Damage Multiplier → Increase hero attack power\n- Unit Defence Multiplier → Boost unit durability\n- Unit God Mode → Make units invincible\n- Castle Defence Multiplier → Strengthen castle defenses\n- Castle Never Die → Make castle indestructible",
-      "version": "1.0.14",
-      "size": "327.77 MB",
+      "version": "1.0.15",
+      "size": "327.85 MB",
       "bundle": "com.ondi.fortias.defense",
       "uniqueBundle": "com.ondi.fortias.defense",
-      "downloads_count": 35,
-      "views": 21,
+      "downloads_count": 38,
+      "views": 22,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -89418,8 +89787,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/173649/6414f39bc9a3a52d27fff621c07519c2.ipa?ref=UFlSekxaa1Q0QzdDWEx4VmQ3WlVqYzQ5TUNNcnpIcFdrSzN1enFEUjhkNXVBcXpIM2EybVNoc1AwanZWWmJJVHkyRk1vTW1hN0k0T2dkNzRYM3dseFI0SzhxMEc2TGZzUEl3c2IvdTN4bitSRVlQbnFHY0dJZnZCNzk5c0xDMkwxMjdod29iaXBGUlZjMEFFSjYrU0JIdlpZMTZhNWlZcDZqUzBrMkF5QXJXbFlzSWdZM3prb2hyb212L2RNR051",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/173649/6414f39bc9a3a52d27fff621c07519c2.ipa?ref=UFlSekxaa1Q0QzdDWEx4VmQ3WlVqYzQ5TUNNcnpIcFdrSzN1enFEUjhkNXVBcXpIM2EybVNoc1AwanZWWmJJVHkyRk1vTW1hN0k0T2dkNzRYM3dseFI0SzhxMEc2TGZzUEl3c2IvdTN4bitSRVlQbnFHY0dJZnZCNzk5c0xDMkwxMjdod29iaXBGUlZjMEFFSjYrU0JIdlpZMTZhNWlZcDZqUzBrMkF5QXJXbFlzSWdZM3prb2hyb212L2RNR051"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a0313eed-703e-481d-879f-3f25e1b7dd0e/download"
@@ -89643,7 +90016,7 @@
       "size": "119.54 MB",
       "bundle": "com.ea.pvzfree.bv",
       "uniqueBundle": "com.ea.pvzfree.bv",
-      "downloads_count": 333,
+      "downloads_count": 419,
       "views": 45,
       "isFree": false,
       "hasAddonFiles": false,
@@ -89965,7 +90338,7 @@
       "size": "165.78 MB",
       "bundle": "moonbear.PocketBuild",
       "uniqueBundle": "moonbear.PocketBuild",
-      "downloads_count": 122,
+      "downloads_count": 124,
       "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
@@ -90195,7 +90568,7 @@
       "size": "171.41 MB",
       "bundle": "com.EylulGames.PocketScoutFC",
       "uniqueBundle": "com.EylulGames.PocketScoutFC",
-      "downloads_count": 45,
+      "downloads_count": 46,
       "views": 24,
       "isFree": false,
       "hasAddonFiles": false,
@@ -91626,8 +91999,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153577/1274bce32da452d3d97bb086e1a3234a.ipa?ref=bmtIOG1hVVBJbUZNcUM5UTczSkVCOTk5bmVER0tRc1dxbVhLNFhnRm5YcG5oZ2RjMFFzR3Y4bGRob0FlZnlxRkptSWFXQzVQME1BRjA0K3UxWUZiZVVXTjZzTXZZMk80T2hCb21aZm1mdEpyT2tKaGl0ZmNMSWx4ZnBGQndYV05GaXZYT0t2SFZ0NEl4RlVOdlRlMDI3NWIwUTFZWkxLdzJFMHB3TFo1NUZQd1FxV3BYUlRIcno3aHV5R21vc3dU",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153577/1274bce32da452d3d97bb086e1a3234a.ipa?ref=bmtIOG1hVVBJbUZNcUM5UTczSkVCOTk5bmVER0tRc1dxbVhLNFhnRm5YcG5oZ2RjMFFzR3Y4bGRob0FlZnlxRkptSWFXQzVQME1BRjA0K3UxWUZiZVVXTjZzTXZZMk80T2hCb21aZm1mdEpyT2tKaGl0ZmNMSWx4ZnBGQndYV05GaXZYT0t2SFZ0NEl4RlVOdlRlMDI3NWIwUTFZWkxLdzJFMHB3TFo1NUZQd1FxV3BYUlRIcno3aHV5R21vc3dU"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a22d596b-fe54-4c66-80da-3e846352190e/download"
@@ -92219,7 +92596,7 @@
       "size": "230.52 MB",
       "bundle": "com.storm8.hdpropertybrothers",
       "uniqueBundle": "com.storm8.hdpropertybrothers",
-      "downloads_count": 176,
+      "downloads_count": 177,
       "views": 8,
       "isFree": false,
       "hasAddonFiles": false,
@@ -92311,7 +92688,7 @@
       "size": "3.51 GB",
       "bundle": "com.rekoo.pubgm",
       "uniqueBundle": "com.rekoo.pubgm.XO",
-      "downloads_count": 295,
+      "downloads_count": 297,
       "views": 21,
       "isFree": false,
       "hasAddonFiles": false,
@@ -92339,8 +92716,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/23302/2e19c70887ee16c7dfb486171d13534a.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOHZtVkorakNhcTM1MTBHVDJkR3VWWHZXMS8rSEVyMW9kcUJDdHFsVkg1M0RRZkkrMjBnTFdhb0g2OE5STHMrTjBjRXpVT01PUW05dVhTMk14QUg0Mjk4UHRRV3dpZ0NBaWJRaGp2TS9Cdlc0NklaK2dwYmc1cm1UcWFqbVJJbUM5VmJmQ3hUU0s5bkhsVUxWK29EU2pGdGxuNjk3c2ZOQ1I2WFJuWmFOUWVH",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/23302/2e19c70887ee16c7dfb486171d13534a.ipa?ref=NGozQXN3T08yd0k0ZExEREN4YjVoOHZtVkorakNhcTM1MTBHVDJkR3VWWHZXMS8rSEVyMW9kcUJDdHFsVkg1M0RRZkkrMjBnTFdhb0g2OE5STHMrTjBjRXpVT01PUW05dVhTMk14QUg0Mjk4UHRRV3dpZ0NBaWJRaGp2TS9Cdlc0NklaK2dwYmc1cm1UcWFqbVJJbUM5VmJmQ3hUU0s5bkhsVUxWK29EU2pGdGxuNjk3c2ZOQ1I2WFJuWmFOUWVH"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9e1743da-b6bd-451e-9c49-53a204af60c9/download"
@@ -92500,8 +92881,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153580/607fc02852d6032f27908285febb2856.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4STQwWUlVVzJ5T2dJN080Nm1MYXBGeGwwN1ExdTFBQVRJVWRkNjdyZk9BZ04zZVhsNE9uL1JNZ0wrbWQxS0FiNCtNWmJISFZmM2ZCbno2cHp6RzlleHd5WlZ6cm1oc290dEJDdGxZaHQ1L0ZZZjBsMG5wcmdKTjBUT092UEJJQm5NMWZJY1VKWDk3QzdVNWlJOWs0c21PWXpLSU1GY05pTnBXZTh3T2JIVjJQ",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/153580/607fc02852d6032f27908285febb2856.ipa?ref=WlhseEV2bmhUblpFeGp1NmttM0U4STQwWUlVVzJ5T2dJN080Nm1MYXBGeGwwN1ExdTFBQVRJVWRkNjdyZk9BZ04zZVhsNE9uL1JNZ0wrbWQxS0FiNCtNWmJISFZmM2ZCbno2cHp6RzlleHd5WlZ6cm1oc290dEJDdGxZaHQ1L0ZZZjBsMG5wcmdKTjBUT092UEJJQm5NMWZJY1VKWDk3QzdVNWlJOWs0c21PWXpLSU1GY05pTnBXZTh3T2JIVjJQ"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a22d5985-8082-452f-b8f0-4c23cf129d9c/download"
@@ -92905,17 +93290,21 @@
       "link": "https://check0ver.net/en/iapps/a2bc7923-cc77-43bf-b7bc-a323214a2927",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/165574/512x512bb.jpg",
       "description": "- Damage Multiplier → amplify your firepower in combat\n- Defence Multiplier → reduce incoming damage from enemies\n- Never Die → become invincible in battle",
-      "version": "1.362.273",
-      "size": "89.09 MB",
+      "version": "1.372.273",
+      "size": "89.27 MB",
       "bundle": "com.bag.blob",
       "uniqueBundle": "com.bag.blob",
-      "downloads_count": 172,
-      "views": 26,
+      "downloads_count": 175,
+      "views": 27,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179706/833dce1fda5415ea85c0d601c0eeac26.ipa?ref=b2dRTUhlRGc0NFpjUEEvWEZjbEZ0VUdDOGRZcVNvRGwrZjdzSE1RZjFOdHZKU1VHWE10ZmtWaWwyNTZueFFLK1FjUEFGNS9DQ3JoT0I0OWowY0J0TlBoRHdpK3BLV0I2alNGS0NyMUpsMlc1bUJyZGs5bGtFQlNoNENOdjFVOEttSlpCMmlFUndkcXowMGsweHVEYWxTejI1dzJXL1BGVkxkSDUzVUVrcEpDcVVjWFNpLzBFb0M5eXZLZlBWeGc0",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179706/833dce1fda5415ea85c0d601c0eeac26.ipa?ref=b2dRTUhlRGc0NFpjUEEvWEZjbEZ0VUdDOGRZcVNvRGwrZjdzSE1RZjFOdHZKU1VHWE10ZmtWaWwyNTZueFFLK1FjUEFGNS9DQ3JoT0I0OWowY0J0TlBoRHdpK3BLV0I2alNGS0NyMUpsMlc1bUJyZGs5bGtFQlNoNENOdjFVOEttSlpCMmlFUndkcXowMGsweHVEYWxTejI1dzJXL1BGVkxkSDUzVUVrcEpDcVVjWFNpLzBFb0M5eXZLZlBWeGc0"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2bc7923-cc77-43bf-b7bc-a323214a2927/download"
@@ -93369,7 +93758,7 @@
       "size": "520.67 MB",
       "bundle": "com.UnrealGames.RacinginCar2021",
       "uniqueBundle": "com.UnrealGames.RacinginCar2021",
-      "downloads_count": 1022,
+      "downloads_count": 1023,
       "views": 100,
       "isFree": false,
       "hasAddonFiles": false,
@@ -94478,8 +94867,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178507/ab4da19b37d46e3bc195a382c559c9fd.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emV1R1NDL2JlblZMbldQOGRTSkZlaUxkcGZMdzNUbmtZV2pZWktjMWJFaCtkRkdScWh5WHk3VjVlanhEeHhkY3h6R0cvTlNIblNaYW1XNDRKZXo4bXZr",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178507/ab4da19b37d46e3bc195a382c559c9fd.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeXVNenJZR2FPOWEvOFU5MGl5SnpVcDlXU0hsVTRWeENBYjB6dGhhWkNQRFBBbHhLNUUwaWUwRHN6UmZqYnZvYW9oZksrSnRaYmxUdWZidUJyZlQ0emV1R1NDL2JlblZMbldQOGRTSkZlaUxkcGZMdzNUbmtZV2pZWktjMWJFaCtkRkdScWh5WHk3VjVlanhEeHhkY3h6R0cvTlNIblNaYW1XNDRKZXo4bXZr"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33db889-84b1-49ae-b57f-2a16b10f49ae/download"
@@ -94892,8 +95285,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/164809/6fd47b9d7f072d77526bd7c0c5491b12.ipa?ref=aW53U3JXd0NQYzVKZm5veXlKOHg5MnY5cXNyYnh4TmFidDdXZzRObys3amV4ek8zdnVIRHB6TU0xSWl1aW55Rk5EdXBUOHJpVkM3T0FKRCtOTHZsenNHaDRBYVEvQllBeVJpdHp3S2VDYjBYZ0ZmMDlaRTFIUW9CTnhtUUZqc1craXBhbXJUeG9ybGJWVW5Dc2xVaTRJUTdoR2lTdXRURzQ2K1VoM1htN2xiUVhyWkFUbnY0ZHRvbUxyL1drWHJ4",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/164809/6fd47b9d7f072d77526bd7c0c5491b12.ipa?ref=aW53U3JXd0NQYzVKZm5veXlKOHg5MnY5cXNyYnh4TmFidDdXZzRObys3amV4ek8zdnVIRHB6TU0xSWl1aW55Rk5EdXBUOHJpVkM3T0FKRCtOTHZsenNHaDRBYVEvQllBeVJpdHp3S2VDYjBYZ0ZmMDlaRTFIUW9CTnhtUUZqc1craXBhbXJUeG9ybGJWVW5Dc2xVaTRJUTdoR2lTdXRURzQ2K1VoM1htN2xiUVhyWkFUbnY0ZHRvbUxyL1drWHJ4"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a032436a-230d-4917-a964-05a93e096f04/download"
@@ -94910,7 +95307,7 @@
       "size": "702.18 MB",
       "bundle": "com.hutchgames.rebelracing",
       "uniqueBundle": "com.hutchgames.rebelracing",
-      "downloads_count": 353,
+      "downloads_count": 355,
       "views": 33,
       "isFree": false,
       "hasAddonFiles": false,
@@ -95122,8 +95519,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/176031/ac11dfd37bb80d4576fd19065da66815.ipa?ref=THcyYWQ5dVZjaUFSZHB4UjlrYVladHZIWEpTQ1NIdG9ndkZFRVNXZWlLMVV5L0swTUNWZHkvVW8vTno3Z00raktuQUJ4bk1ZeE53UWg5UFB6VEgvTTN1ZVZPdnVLSjNseERFeXgzM2lmMmVUSWJRZy9NWWRTRXVINkNzeUZlRElsbllKSW42VklRTlgyWG5adVhuc1VrcmVBM1FVSEMwN2R2cTg1ODJBRUprQnRzelRZK3kvMjVVVjVxVVNFNTdoL05TdmIwRFgxcGF3YlFmaFd4SEFuUT09",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/176031/ac11dfd37bb80d4576fd19065da66815.ipa?ref=THcyYWQ5dVZjaUFSZHB4UjlrYVladHZIWEpTQ1NIdG9ndkZFRVNXZWlLMVV5L0swTUNWZHkvVW8vTno3Z00raktuQUJ4bk1ZeE53UWg5UFB6VEgvTTN1ZVZPdnVLSjNseERFeXgzM2lmMmVUSWJRZy9NWWRTRXVINkNzeUZlRElsbllKSW42VklRTlgyWG5adVhuc1VrcmVBM1FVSEMwN2R2cTg1ODJBRUprQnRzelRZK3kvMjVVVjVxVVNFNTdoL05TdmIwRFgxcGF3YlFmaFd4SEFuUT09"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a32761ff-5720-47d3-9288-ee264ac1a4ee/download"
@@ -96019,8 +96420,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175742/7f2c920d5784bf56980d1df4f88e6fd3.ipa?ref=eTBodWlSOGtsUW10ZnFqeWFmV0EzZWZjRzJ3QktEWjVBMkU4ZkVtZ2RBM1BQWVl6WkUrcEk2Si82YzBaRWw1em1keVhtQjhtVDduaWNnRGxhclZIYWRXUnVXaEdlZ0RTWitXc2lPcDA0dmVPUC9RVUxlQzRVZ1lpeStYZmQxMEdhRU9Td3R6cVJYbHp3OEhKQWJnYkVSRis0cWJKQzFvT3RySCtRSXA4MlZnOTYwVUZZS0JpMDU2SjlHT1oyWkpq",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/175742/7f2c920d5784bf56980d1df4f88e6fd3.ipa?ref=eTBodWlSOGtsUW10ZnFqeWFmV0EzZWZjRzJ3QktEWjVBMkU4ZkVtZ2RBM1BQWVl6WkUrcEk2Si82YzBaRWw1em1keVhtQjhtVDduaWNnRGxhclZIYWRXUnVXaEdlZ0RTWitXc2lPcDA0dmVPUC9RVUxlQzRVZ1lpeStYZmQxMEdhRU9Td3R6cVJYbHp3OEhKQWJnYkVSRis0cWJKQzFvT3RySCtRSXA4MlZnOTYwVUZZS0JpMDU2SjlHT1oyWkpq"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a031194d-1f5d-4a09-b777-bc1346d1b778/download"
@@ -97256,7 +97661,7 @@
       "size": "572.28 MB",
       "bundle": "com.atari.mobile.rctempire",
       "uniqueBundle": "com.atari.mobile.rctempire",
-      "downloads_count": 995,
+      "downloads_count": 997,
       "views": 46,
       "isFree": false,
       "hasAddonFiles": false,
@@ -97785,7 +98190,7 @@
       "size": "199.54 MB",
       "bundle": "com.dreamgames.royalmatch",
       "uniqueBundle": "com.dreamgames.royalmatch",
-      "downloads_count": 1021,
+      "downloads_count": 1022,
       "views": 302,
       "isFree": false,
       "hasAddonFiles": false,
@@ -98471,11 +98876,11 @@
       "link": "https://check0ver.net/en/iapps/9fa9b6e1-1d72-4563-b394-3b599abab95f",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/116196/512x512bb.jpg",
       "description": "- Freeze Coins\n- Freeze Cash\n- Freeze Lives\n- Freeze Tokens\n- Freeze Pre-Level Boosters\n- Freeze In-Level Boosters\n- Freeze Moves\n- Auto Win",
-      "version": "3.16.9",
-      "size": "191.5 MB",
+      "version": "3.16.13",
+      "size": "187.78 MB",
       "bundle": "com.eastsidegames.rupaulmatch",
       "uniqueBundle": "com.eastsidegames.rupaulmatch",
-      "downloads_count": 92,
+      "downloads_count": 94,
       "views": 16,
       "isFree": false,
       "hasAddonFiles": false,
@@ -99395,7 +99800,7 @@
       "size": "63.05 MB",
       "bundle": "leogame.save.the.dog",
       "uniqueBundle": "leogame.save.the.dog",
-      "downloads_count": 16,
+      "downloads_count": 17,
       "views": 7,
       "isFree": false,
       "hasAddonFiles": false,
@@ -99740,7 +100145,7 @@
       "size": "307.8 MB",
       "bundle": "com.quok.screwJam",
       "uniqueBundle": "com.quok.screwJam",
-      "downloads_count": 88,
+      "downloads_count": 89,
       "views": 60,
       "isFree": false,
       "hasAddonFiles": false,
@@ -99947,7 +100352,7 @@
       "size": "145.69 MB",
       "bundle": "linkdesks.screw.bolts.nuts.story",
       "uniqueBundle": "linkdesks.screw.bolts.nuts.story",
-      "downloads_count": 14,
+      "downloads_count": 15,
       "views": 9,
       "isFree": false,
       "hasAddonFiles": false,
@@ -101972,7 +102377,7 @@
       "bundle": "com.ea.simcitymobile.bv",
       "uniqueBundle": "com.ea.simcitymobile.bv",
       "downloads_count": 117,
-      "views": 45,
+      "views": 47,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -104368,8 +104773,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178478/3432480e4c5a36b69a92bffbd7a36f8c.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTJUcW1jSkovakVXdDhZZmQ4ZmRhLzhYMWVzM3luODJHRVBxYW1jR2dFZEw2MXBSMzcrYXV5ajdjRFFGbTk0TDVmQ2VQb3BqVU9RcmptSEhoejZNTVFh",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178478/3432480e4c5a36b69a92bffbd7a36f8c.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyMjN0NExzYnF6cmo2NGJCOHhib2Y4Qm5FbXByaHhzM1RUOE5IR0lLVkx0WHJYL1FFVWt3d1N4VHJqd2ZZNXRUaHJxeGNIK1ExRVRRVGNMdk8yQUh1MTJUcW1jSkovakVXdDhZZmQ4ZmRhLzhYMWVzM3luODJHRVBxYW1jR2dFZEw2MXBSMzcrYXV5ajdjRFFGbTk0TDVmQ2VQb3BqVU9RcmptSEhoejZNTVFh"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33d9210-01d2-4e85-9c4b-64a1c5f32471/download"
@@ -104501,8 +104910,8 @@
       "size": "201.8 MB",
       "bundle": "com.playrix.frozenpeak",
       "uniqueBundle": "com.playrix.frozenpeak",
-      "downloads_count": 2,
-      "views": 1,
+      "downloads_count": 3,
+      "views": 2,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -104731,7 +105140,7 @@
       "size": "182.96 MB",
       "bundle": "soccer.score.star",
       "uniqueBundle": "soccer.score.star",
-      "downloads_count": 889,
+      "downloads_count": 1051,
       "views": 137,
       "isFree": false,
       "hasAddonFiles": false,
@@ -104851,8 +105260,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178706/8897a47efde63f2488a528a169526801.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyd0RueFdxVlphTXlDTWF5ODJET2t2bUVLUUx1ZlFuRndJUDVySmlMQXVwZEE5RUhMSjlibDN6VmF4Z3dLaHVEZi8veVZWM014dTY2cTJRT3JiK2tQQURUWUdEMWw5M1JWaTJLclVQUHFEc3U2TFAyRXRVZUxGcmRFRXFpd2Jrb0xVZnVBRGJyK2V4aExYSDEwZkxuQ3Q4aURETDVPYVY3bVIvSXJGQWMzN1Yr",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178706/8897a47efde63f2488a528a169526801.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyd0RueFdxVlphTXlDTWF5ODJET2t2bUVLUUx1ZlFuRndJUDVySmlMQXVwZEE5RUhMSjlibDN6VmF4Z3dLaHVEZi8veVZWM014dTY2cTJRT3JiK2tQQURUWUdEMWw5M1JWaTJLclVQUHFEc3U2TFAyRXRVZUxGcmRFRXFpd2Jrb0xVZnVBRGJyK2V4aExYSDEwZkxuQ3Q4aURETDVPYVY3bVIvSXJGQWMzN1Yr"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33f661d-f00b-4f67-95fd-95107f84c48a/download"
@@ -104869,7 +105282,7 @@
       "size": "210.72 MB",
       "bundle": "com.wk.mmm",
       "uniqueBundle": "com.wk.mmm",
-      "downloads_count": 22,
+      "downloads_count": 23,
       "views": 3,
       "isFree": false,
       "hasAddonFiles": false,
@@ -106778,7 +107191,7 @@
       "size": "127.24 MB",
       "bundle": "ru.spectrumofsoul.game",
       "uniqueBundle": "ru.spectrumofsoul.game",
-      "downloads_count": 28,
+      "downloads_count": 29,
       "views": 20,
       "isFree": false,
       "hasAddonFiles": false,
@@ -108871,7 +109284,7 @@
       "size": "79.95 MB",
       "bundle": "com.stickpage.stickwar",
       "uniqueBundle": "com.stickpage.stickwar.iosgod",
-      "downloads_count": 165,
+      "downloads_count": 166,
       "views": 27,
       "isFree": false,
       "hasAddonFiles": false,
@@ -109520,8 +109933,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Paid Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/33880/0faa26f4c3cd772129d9032b37577d4a.ipa?ref=dVpySVR0aVFsRXdsWFB3L3N6Qmt3VHVmSmxLVk5zNFA4V0R6bG8yN2lyWStoWVcrOEQ0bTlrUDlWYUQxTndycGcvWWJmWm92bDJkZmJVZVdlOEx1VFkrSXp3bFFiRG9ROFVMU2VmeXlORjFzbWZ2OEdJWG9MTHNrK1ZJZDZxV2hOOG0xWU9JSDhDcm9Wc2JGTStlUVF5Ny9yeitoV2d0UlR6bUpxcm1Ia05sRlFRU0VOWElHTmR6TkllSEpTUWhs",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/33880/0faa26f4c3cd772129d9032b37577d4a.ipa?ref=dVpySVR0aVFsRXdsWFB3L3N6Qmt3VHVmSmxLVk5zNFA4V0R6bG8yN2lyWStoWVcrOEQ0bTlrUDlWYUQxTndycGcvWWJmWm92bDJkZmJVZVdlOEx1VFkrSXp3bFFiRG9ROFVMU2VmeXlORjFzbWZ2OEdJWG9MTHNrK1ZJZDZxV2hOOG0xWU9JSDhDcm9Wc2JGTStlUVF5Ny9yeitoV2d0UlR6bUpxcm1Ia05sRlFRU0VOWElHTmR6TkllSEpTUWhs"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9e7e437b-562f-45a4-9dbd-1d8b8d817aed/download"
@@ -110090,8 +110507,8 @@
       "size": "231.74 MB",
       "bundle": "com.kiloo.subwaysurfers",
       "uniqueBundle": "com.kiloo.subwaysurfers",
-      "downloads_count": 3477,
-      "views": 485,
+      "downloads_count": 3479,
+      "views": 494,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -110435,7 +110852,7 @@
       "size": "254.76 MB",
       "bundle": "com.Earthkwak.Platformer",
       "uniqueBundle": "com.Earthkwak.Platformer",
-      "downloads_count": 117,
+      "downloads_count": 296,
       "views": 36,
       "isFree": false,
       "hasAddonFiles": false,
@@ -110716,8 +111133,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178324/582e3d98a0ef429d0f5c2791125fad55.ipa?ref=aWgyT3RkTGd6ZWFiS1ZOK3BkZlB0K2M1WTZzaEVmZ2lDR0h0SUpLVDRJWVBtNGM0TDdRYlVrRTN2Qlc1YjhheGFFN3paVGRyaXFTZm5ieWczcUovK0w3UTNzVDVRa2s3QzlzSWEvakdkdE9lT0JCOXlaVUpQYmpjS1ZXV3pqbzhyQmdKd1Y4TkU0S3REaitQVjN0SWJpVWFOUjVsZXVnUEMxT1h3K2c3WjlTNUlIcU9CbGRxRVBtakVvQ21uNTN3",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178324/582e3d98a0ef429d0f5c2791125fad55.ipa?ref=aWgyT3RkTGd6ZWFiS1ZOK3BkZlB0K2M1WTZzaEVmZ2lDR0h0SUpLVDRJWVBtNGM0TDdRYlVrRTN2Qlc1YjhheGFFN3paVGRyaXFTZm5ieWczcUovK0w3UTNzVDVRa2s3QzlzSWEvakdkdE9lT0JCOXlaVUpQYmpjS1ZXV3pqbzhyQmdKd1Y4TkU0S3REaitQVjN0SWJpVWFOUjVsZXVnUEMxT1h3K2c3WjlTNUlIcU9CbGRxRVBtakVvQ21uNTN3"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33b8b4e-a9f7-400d-aff8-733d46da0897/download"
@@ -110739,8 +111160,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "العاب نيتندو سويتش",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178375/db65440d4c33c5faf1fec1844a0d768d.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYmFCTlV6Y1VTbXpEeGpTNmJKc3ZuSFlWYzZnVVZpTy9Ua3Y2ZDEwRlJabSs2OTNnbXFlOC9WWm9GL3Fjb2p0Q1hqUXg1bWY4ckdxVTVPQmptMStSS09n",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/178375/db65440d4c33c5faf1fec1844a0d768d.ipa?ref=bjR2RFVaUDBOcUdEQ3dVL1hCZGc4NGRrYlp2OW9WZk00aXZIVS85Y20yeWFRNmZTWHgvb1g0UVpDa2Y0bnpKWThKdDdhazg4d1pCOHdvQUhLSXNzTHUydkFaYUltK0lwVEZDUEgyS1ltYmFCTlV6Y1VTbXpEeGpTNmJKc3ZuSFlWYzZnVVZpTy9Ua3Y2ZDEwRlJabSs2OTNnbXFlOC9WWm9GL3Fjb2p0Q1hqUXg1bWY4ckdxVTVPQmptMStSS09n"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a33c4330-692d-44ad-be68-aa15b21318a3/download"
@@ -110849,7 +111274,7 @@
       "size": "1.31 GB",
       "bundle": "com.babyeducationtoys.fashionstyle",
       "uniqueBundle": "com.babyeducationtoys.fashionstyle",
-      "downloads_count": 634,
+      "downloads_count": 804,
       "views": 40,
       "isFree": false,
       "hasAddonFiles": false,
@@ -111033,7 +111458,7 @@
       "size": "196.38 MB",
       "bundle": "com.supermarket.manager.simulator.game",
       "uniqueBundle": "com.supermarket.manager.simulator.game",
-      "downloads_count": 446,
+      "downloads_count": 447,
       "views": 50,
       "isFree": false,
       "hasAddonFiles": false,
@@ -111259,17 +111684,21 @@
       "link": "https://check0ver.net/en/iapps/a3261954-19e8-47f0-bde2-18dfeca393af",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/175865/512x512bb.jpg",
       "description": "- Add 1M Cash → instant capital for rapid expansion\n- Add 10K Gems → premium currency for exclusive upgrades\n- Cheat Menu → access all cheats in one place\n- No Ads → uninterrupted gameplay",
-      "version": "1.0.26",
-      "size": "201.03 MB",
+      "version": "1.0.27",
+      "size": "198.72 MB",
       "bundle": "com.twh011.market.simulator.manager",
       "uniqueBundle": "com.twh011.market.simulator.manager",
-      "downloads_count": 27,
-      "views": 3,
+      "downloads_count": 31,
+      "views": 4,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179714/bd02005308c3a310a85b0ce0a7b3f94b.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeC9WUnlVY2h3cnZqU1R6YXhwSE50d3RaeElqVk1wL2Rjc0dnYXJ6dGpzZHdEamZxKyt4blVhM0xtZHRTYXNrL3VIcThlZng0MlJjT3JGWDQ1c3BiMTZTUGVUSVpMNSt4aHlzWEV6c2FQMkhTNi9ZSDMrSGk2RWVXUXRjQkFXL0lOWHoyZCs2SHU0Wjl3Y1c1YjZsbll3bFhycUFtR0dycllTNHZ6c29mdkRO",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179714/bd02005308c3a310a85b0ce0a7b3f94b.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeC9WUnlVY2h3cnZqU1R6YXhwSE50d3RaeElqVk1wL2Rjc0dnYXJ6dGpzZHdEamZxKyt4blVhM0xtZHRTYXNrL3VIcThlZng0MlJjT3JGWDQ1c3BiMTZTUGVUSVpMNSt4aHlzWEV6c2FQMkhTNi9ZSDMrSGk2RWVXUXRjQkFXL0lOWHoyZCs2SHU0Wjl3Y1c1YjZsbll3bFhycUFtR0dycllTNHZ6c29mdkRO"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a3261954-19e8-47f0-bde2-18dfeca393af/download"
@@ -113099,17 +113528,21 @@
       "link": "https://check0ver.net/en/iapps/9e4de1c9-7866-4b13-87cf-16a1b58d0413",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/119536/512x512bb.jpg",
       "description": "- No Ads\n- Add Tokens\n- Make Me VIP\n- Spawn Bomb\n- Spawn Coin Block\n- Spawn Bomb\n- Spawn Coin Block\n- Spawn Special Blocks\n- Unlock All Puzzles\n- Infinite Moves\n- Freeze Challenge Moves\n- Disable Timer for Challenge",
-      "version": "169.5.9",
-      "size": "103.6 MB",
+      "version": "169.5.10",
+      "size": "183.57 MB",
       "bundle": "com.jctswbglsm.SwipeAway",
       "uniqueBundle": "com.jctswbglsm.SwipeAway",
-      "downloads_count": 163,
-      "views": 56,
+      "downloads_count": 166,
+      "views": 57,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179723/7532dfb0fba66ff19cafd8c382f11165.ipa?ref=VW8zYXVWeXdrOTBDbUlySi9mQVVSSVJpSlI4eVAzQ2kzdXAyakYwR0o2RE9hYWRYNGlsdHg1cWMvZnFVNDlxTEVZQzZ3K29ZajV2azFZZUZFL2lRaE9jNnEvMjVRZ3ZPVTJjWlFoL3NxeXYzMTV5ZmFPWU5QSTZOS3h1eWsrNHBYRkxnT3FuZ21QRDgydlUyYmNyUkhlZzZXS0JiNzJvRWxkV3IybkVNU1pHaHRvaG50V1VJQzNTQ0NvK0xxUnBE",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179723/7532dfb0fba66ff19cafd8c382f11165.ipa?ref=VW8zYXVWeXdrOTBDbUlySi9mQVVSSVJpSlI4eVAzQ2kzdXAyakYwR0o2RE9hYWRYNGlsdHg1cWMvZnFVNDlxTEVZQzZ3K29ZajV2azFZZUZFL2lRaE9jNnEvMjVRZ3ZPVTJjWlFoL3NxeXYzMTV5ZmFPWU5QSTZOS3h1eWsrNHBYRkxnT3FuZ21QRDgydlUyYmNyUkhlZzZXS0JiNzJvRWxkV3IybkVNU1pHaHRvaG50V1VJQzNTQ0NvK0xxUnBE"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/9e4de1c9-7866-4b13-87cf-16a1b58d0413/download"
@@ -114493,6 +114926,29 @@
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2e140b4-ada6-456e-a622-2856e23c1167/download"
+        }
+      ]
+    },
+    {
+      "uuid": "a346f69f-b86e-4b62-a42b-6c201aea6442",
+      "name": "The Farmer Was Replaced",
+      "link": "https://check0ver.net/en/iapps/a346f69f-b86e-4b62-a42b-6c201aea6442",
+      "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179687/512x512bb.jpg",
+      "description": "- Premium Unlocked → access all premium content",
+      "version": "1.1.32",
+      "size": "190.82 MB",
+      "bundle": "com.TheFarmerWasReplaced.TheFarmerWasReplaced",
+      "uniqueBundle": "com.TheFarmerWasReplaced.TheFarmerWasReplaced",
+      "downloads_count": 3,
+      "views": 1,
+      "isFree": false,
+      "hasAddonFiles": false,
+      "category": "Games",
+      "downloadURL": null,
+      "downloads": [
+        {
+          "name": "CheckOver Download Endpoint",
+          "link": "https://check0ver.net/api/iapps/a346f69f-b86e-4b62-a42b-6c201aea6442/download"
         }
       ]
     },
@@ -117243,7 +117699,7 @@
       "size": "567.64 MB",
       "bundle": "com.funplus.ts",
       "uniqueBundle": "com.funplus.ts",
-      "downloads_count": 148,
+      "downloads_count": 149,
       "views": 69,
       "isFree": false,
       "hasAddonFiles": false,
@@ -117266,7 +117722,7 @@
       "size": "567.56 MB",
       "bundle": "com.ios.ts.vn",
       "uniqueBundle": "com.ios.ts.vn",
-      "downloads_count": 93,
+      "downloads_count": 94,
       "views": 24,
       "isFree": false,
       "hasAddonFiles": false,
@@ -118025,8 +118481,8 @@
       "size": "252.94 MB",
       "bundle": "com.kiarygames.eclipse",
       "uniqueBundle": "com.kiarygames.eclipse",
-      "downloads_count": 1,
-      "views": 0,
+      "downloads_count": 2,
+      "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -119842,7 +120298,7 @@
       "size": "68.67 MB",
       "bundle": "com.skgames.motor",
       "uniqueBundle": "com.skgames.motor",
-      "downloads_count": 379,
+      "downloads_count": 386,
       "views": 107,
       "isFree": false,
       "hasAddonFiles": false,
@@ -121820,7 +122276,7 @@
       "size": "864.05 MB",
       "bundle": "com.WandaSoftware.TruckersofEurope3",
       "uniqueBundle": "com.WandaSoftware.TruckersofEurope3",
-      "downloads_count": 371,
+      "downloads_count": 372,
       "views": 53,
       "isFree": false,
       "hasAddonFiles": false,
@@ -121839,12 +122295,12 @@
       "link": "https://check0ver.net/en/iapps/a1c8fcc9-ca07-44d6-a1c1-35c44a545589",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/139096/512x512bb.jpg",
       "description": "- Infinite Money\n- Premium",
-      "version": "1.94.11543",
-      "size": "834.56 MB",
+      "version": "1.95.13221",
+      "size": "958.98 MB",
       "bundle": "au.com.oddgames.trucksoffroad",
       "uniqueBundle": "au.com.oddgames.trucksoffroad",
-      "downloads_count": 111,
-      "views": 16,
+      "downloads_count": 115,
+      "views": 17,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -122046,17 +122502,21 @@
       "link": "https://check0ver.net/en/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/179469/512x512bb.jpg",
       "description": "- Damage Multiplier → boost your cat mercenaries' combat power\n- Defense Multiplier → strengthen your team's durability in battle\n- Currency Multiplier → accelerate resource gathering and crafting\n- Freeze Currencies → lock your balance to prevent accidental spending\n- No ADS → enjoy uninterrupted gameplay",
-      "version": "1.0.2",
-      "size": "167.78 MB",
+      "version": "1.0.3",
+      "size": "164.24 MB",
       "bundle": "com.leoncorpcore.purrsmith",
       "uniqueBundle": "com.leoncorpcore.purrsmith",
-      "downloads_count": 2,
+      "downloads_count": 4,
       "views": 1,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179735/16452ec52c0038ea875bfdd103125e64.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeEdHSE02QnBYbG8veDBiQ04zWU5UY21kcTVxbFFNMDl2MlZYRUh0TmpWSEFmaEtuL3EvbDRlRjJwU3B5VFl6ZDlqRjhObVVRNVNpT2hMRjJ3dUU2TGg3TUpvT2ZEZ2VjM1FQTFRqeFVhWksxRjl4L0VuWTN5Q3hlY3Nmc2hWeG9vL2lBUTQybFlTQkp6WTYvYmY1ekFjRGVTMXA5bkFlU2t3WG9KQkYxN2lX",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179735/16452ec52c0038ea875bfdd103125e64.ipa?ref=RUFYT2x2TldUcFlyS1NGaVRBajQyeEdHSE02QnBYbG8veDBiQ04zWU5UY21kcTVxbFFNMDl2MlZYRUh0TmpWSEFmaEtuL3EvbDRlRjJwU3B5VFl6ZDlqRjhObVVRNVNpT2hMRjJ3dUU2TGg3TUpvT2ZEZ2VjM1FQTFRqeFVhWksxRjl4L0VuWTN5Q3hlY3Nmc2hWeG9vL2lBUTQybFlTQkp6WTYvYmY1ekFjRGVTMXA5bkFlU2t3WG9KQkYxN2lX"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a3455aba-f8f9-4bdf-acea-bc164dc78df5/download"
@@ -124093,11 +124553,11 @@
       "link": "https://check0ver.net/en/iapps/9cfc38fe-e562-44d4-8368-1a015c7d73eb",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115987/512x512bb.jpg",
       "description": "- Free store (buy then cancel)",
-      "version": "2.1.6",
-      "size": "64.26 MB",
+      "version": "2.5.0",
+      "size": "76.64 MB",
       "bundle": "com.sparklingsocietysims.towncitybrawlworldofbrawlers",
       "uniqueBundle": "com.sparklingsocietysims.towncitybrawlworldofbrawlers",
-      "downloads_count": 108,
+      "downloads_count": 110,
       "views": 39,
       "isFree": false,
       "hasAddonFiles": false,
@@ -124691,17 +125151,21 @@
       "link": "https://check0ver.net/en/iapps/a2f281d8-f202-447c-9fa8-232e3a006a60",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/170677/512x512bb.jpg",
       "description": "- Always Crit: your pets always land critical hits\n- Battle Speed Multiplier (1x-10x): speeds up battle animations\n- Debuff Immunity: debuffs don't affect your pets",
-      "version": "5.29.86",
-      "size": "111.78 MB",
+      "version": "5.29.87",
+      "size": "114.2 MB",
       "bundle": "com.voidpet.dungeon",
       "uniqueBundle": "com.voidpet.dungeon",
-      "downloads_count": 39,
-      "views": 26,
+      "downloads_count": 42,
+      "views": 27,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179716/c79943664de2b1bd9fc45e6c6dcffd23.ipa?ref=QmdLNWdabE9sWTFtNnUwZG80TXdiL0ZaclpKU3VpbVZ4dEpmVnRmckVzSzFNUUV4dzFPeStqdnRmK3AzejZQNHVKcHFObVJhcXV5WHdhMDJsRnREQk1ZQmZ0czdtOVNxYmxFMElMR0JERW12TTZBWVJySEhVTHg0bFVwSmFuSzFlQmV1eGZvNjlOVS9ZV1NxQ0czYWRIS0EvbktuUzVTNEhJYXFLaGpoazdCSFFkNlZsZGpaUnBvWS80dnQ2V3FR",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179716/c79943664de2b1bd9fc45e6c6dcffd23.ipa?ref=QmdLNWdabE9sWTFtNnUwZG80TXdiL0ZaclpKU3VpbVZ4dEpmVnRmckVzSzFNUUV4dzFPeStqdnRmK3AzejZQNHVKcHFObVJhcXV5WHdhMDJsRnREQk1ZQmZ0czdtOVNxYmxFMElMR0JERW12TTZBWVJySEhVTHg0bFVwSmFuSzFlQmV1eGZvNjlOVS9ZV1NxQ0czYWRIS0EvbktuUzVTNEhJYXFLaGpoazdCSFFkNlZsZGpaUnBvWS80dnQ2V3FR"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2f281d8-f202-447c-9fa8-232e3a006a60/download"
@@ -125450,17 +125914,21 @@
       "link": "https://check0ver.net/en/iapps/a2acaa2a-52b6-4161-b38c-2b5060afb1c4",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/164137/512x512bb.jpg",
       "description": "- Tower Upgrade Cost 0 → upgrade towers instantly without resource cost\n- Tower Build Cost 0 → construct all tower types freely\n- ATK MAX / Use Only Archer Tower → maximize attack power with archer tower focus",
-      "version": "1.0.2",
-      "size": "149.04 MB",
+      "version": "2.0.0",
+      "size": "119.8 MB",
       "bundle": "com.yeeyo.YYTowerDefense",
       "uniqueBundle": "com.yeeyo.YYTowerDefense",
-      "downloads_count": 13,
+      "downloads_count": 16,
       "views": 6,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179737/f1d91aeb238fa5c42d01765115135a9d.ipa?ref=N3ZOUUNubUg3SzRKNjVucm5FZmVUU1ZRanU5N3QyQ0JXalVqV0FnT0ZvRWRNMzgvVG5ibzB6d2JTcjhJZjRwYmdxeGRHeUZPb3VQNEVzMXdtTkorcnpOZERheENGK1YyNklXUlNqQUcydTdxNnRkRXh3WUI2YThmTVlxcnhOSUxhZFlqSitkR2MxQ21mQWE1OENZam12RTdNKzFEZGh1QUlGMVBKeFRsM1YrcUhra2VMaXVEb1ZlSm1saUVUb3Na",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/179737/f1d91aeb238fa5c42d01765115135a9d.ipa?ref=N3ZOUUNubUg3SzRKNjVucm5FZmVUU1ZRanU5N3QyQ0JXalVqV0FnT0ZvRWRNMzgvVG5ibzB6d2JTcjhJZjRwYmdxeGRHeUZPb3VQNEVzMXdtTkorcnpOZERheENGK1YyNklXUlNqQUcydTdxNnRkRXh3WUI2YThmTVlxcnhOSUxhZFlqSitkR2MxQ21mQWE1OENZam12RTdNKzFEZGh1QUlGMVBKeFRsM1YrcUhra2VMaXVEb1ZlSm1saUVUb3Na"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a2acaa2a-52b6-4161-b38c-2b5060afb1c4/download"
@@ -129291,11 +129759,11 @@
       "link": "https://check0ver.net/en/iapps/9fabd47a-6657-43cc-b659-c8da8f748715",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/117904/512x512bb.jpg",
       "description": "- ADS Free [ Rewards Free ]\n- HP [ Hero Status Check ]\n- ATK [ Hero Status Check ]",
-      "version": "4.3.6",
-      "size": "350.87 MB",
+      "version": "4.3.7",
+      "size": "367.77 MB",
       "bundle": "com.tryagaingamestudio.spacelanders",
       "uniqueBundle": "com.tryagaingamestudio.spacelanders",
-      "downloads_count": 179,
+      "downloads_count": 182,
       "views": 40,
       "isFree": false,
       "hasAddonFiles": false,
@@ -129406,12 +129874,12 @@
       "link": "https://check0ver.net/en/iapps/a0ba38d9-7603-48fc-9a5a-5fda0feaa00f",
       "icon": "https://public-cdn.check0ver.com/E669C4F905734AED2E9E/115051/512x512bb.jpg",
       "description": "- Unlimited Slots\n- Unlimited Booster\n- Lives / 0 Play Unlimited",
-      "version": "14.3",
-      "size": "638.07 MB",
+      "version": "14.5",
+      "size": "664.52 MB",
       "bundle": "puzzle.yarn.fever.unravel.puzzle",
       "uniqueBundle": "puzzle.yarn.fever.unravel.puzzle",
-      "downloads_count": 288,
-      "views": 78,
+      "downloads_count": 291,
+      "views": 79,
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Games",
@@ -130008,7 +130476,7 @@
       "size": "141.55 MB",
       "bundle": "com.playmotional.survival",
       "uniqueBundle": "com.playmotional.survival",
-      "downloads_count": 613,
+      "downloads_count": 739,
       "views": 82,
       "isFree": false,
       "hasAddonFiles": false,
@@ -131365,7 +131833,7 @@
       "size": "198.05 MB",
       "bundle": "com.fungames.battleroyale",
       "uniqueBundle": "com.fungames.battleroyale",
-      "downloads_count": 1160,
+      "downloads_count": 1328,
       "views": 250,
       "isFree": false,
       "hasAddonFiles": false,
@@ -131393,8 +131861,12 @@
       "isFree": false,
       "hasAddonFiles": false,
       "category": "Arcade Games",
-      "downloadURL": null,
+      "downloadURL": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152286/108ddac11f24093d39787d92f3beb5c3.ipa?ref=RTFvUXEydEN6OE9XalJXQk5BTGJPazJhZy9haW1EMS9lbk5rYU1la1NBZUdGaXhLWUo4bTV4VWtjSTRpUFo2aW1FN29FYjUwNFduaXp3SE9qRVcyOXBxVjB4OU5ybnM2czZBREk0L3pJZE5xWE53ckFLMFRlZjJyV1FCK21WcHBvZTlmSVJiWHMwSmQ3Ri93N1QzSk9jbVNUUDNDZGRpVlg3Y3YvZlFsSmRjaCtSYXpvVXJCOGpUVlNLVjNRMFIw",
       "downloads": [
+        {
+          "name": "Original Download",
+          "link": "https://check0ver.net/api/check0ver/E669C4F905734AED2E9E/152286/108ddac11f24093d39787d92f3beb5c3.ipa?ref=RTFvUXEydEN6OE9XalJXQk5BTGJPazJhZy9haW1EMS9lbk5rYU1la1NBZUdGaXhLWUo4bTV4VWtjSTRpUFo2aW1FN29FYjUwNFduaXp3SE9qRVcyOXBxVjB4OU5ybnM2czZBREk0L3pJZE5xWE53ckFLMFRlZjJyV1FCK21WcHBvZTlmSVJiWHMwSmQ3Ri93N1QzSk9jbVNUUDNDZGRpVlg3Y3YvZlFsSmRjaCtSYXpvVXJCOGpUVlNLVjNRMFIw"
+        },
         {
           "name": "CheckOver Download Endpoint",
           "link": "https://check0ver.net/api/iapps/a22117d4-f92e-4e1d-a7e9-31e3edb762ee/download"
@@ -131641,7 +132113,7 @@
       "size": "483.02 MB",
       "bundle": "com.almulazimanas.almulazimanas",
       "uniqueBundle": "com.almulazimanas.almulazimanas",
-      "downloads_count": 1316,
+      "downloads_count": 1317,
       "views": 653,
       "isFree": false,
       "hasAddonFiles": false,
@@ -131664,7 +132136,7 @@
       "size": "23.25 MB",
       "bundle": "com.tableknightgames.barraalsalfah",
       "uniqueBundle": "com.tableknightgames.barraalsalfah",
-      "downloads_count": 362,
+      "downloads_count": 363,
       "views": 19,
       "isFree": false,
       "hasAddonFiles": false,
@@ -132216,7 +132688,7 @@
       "size": "176.74 MB",
       "bundle": "net.peakgames.kammelna",
       "uniqueBundle": "net.peakgames.kammelna",
-      "downloads_count": 2122,
+      "downloads_count": 2123,
       "views": 968,
       "isFree": false,
       "hasAddonFiles": false,
